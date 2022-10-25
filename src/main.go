@@ -63,10 +63,19 @@ func (m model) Update(msg tea.Msg) (tea.Model, tea.Cmd) {
 		case "ctrl+c":
 			return m, tea.Quit
 		case "enter":
-			// idx := m.list.Index()
-			// items := m.list.Items()
-			// item := items[idx]
-			// item.location = ""
+			idx := m.list.Index()
+			items := m.list.Items()
+			itemIndexed := items[idx]
+			itemTyped, ok := itemIndexed.(item)
+			if !ok {
+				return m, nil
+			}
+			desc := itemTyped.Description()
+			descSplitted := strings.Split(desc, "/")
+			descLast := descSplitted[len(descSplitted)-1]
+			colonSplitted := strings.Split(descLast, ":")
+			fmt.Println(colonSplitted) // Used this colonSplitted for the line number below
+
 			cmd := exec.Command(
 				"/Applications/GoLand.app/Contents/MacOS/goland",
 				"-l", "147",
