@@ -4,6 +4,8 @@
 package main
 
 import (
+	"github.com/gin-gonic/gin"
+	_ "github.com/gin-gonic/gin"
 	"github.com/webview/webview"
 )
 
@@ -26,6 +28,8 @@ type IncrementResult struct {
 }
 
 func main() {
+	go serve()
+
 	var count uint = 0
 	w := webview.New(false)
 	defer w.Destroy()
@@ -36,14 +40,14 @@ func main() {
 		return IncrementResult{Count: count}
 	})
 
-	//path, err := os.Getwd()
-	//if err != nil {
-	//	os.Exit(-1)
-	//}
-	//fullPath := "File://" + path + "/front/dist/index.html"
-	//fmt.Println(fullPath)
-	//w.Navigate(fullPath)
+	w.Navigate("http://localhost:8080")
 
-	w.SetHtml(html)
+	// w.SetHtml(html)
 	w.Run()
+}
+
+func serve() {
+	router := gin.Default()
+	router.Static("/", "./front/dist")
+	router.Run(":8080")
 }
