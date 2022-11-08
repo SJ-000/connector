@@ -1,7 +1,22 @@
 <script>
+    import data from './assets/data.json';
+
     function handleClick(e){
         console.log("click:", e)
     }
+
+    // console.log(data, typeof(data));
+    // console.log(data['github.com/bountylabs/service/guest/dynamo'])
+    // console.log(typeof(data['github.com/bountylabs/service/guest/dynamo']))
+    Object.entries(data).forEach(([k, v])=> {
+        console.log(k)
+        // console.log(v)
+    })
+    // const _data = JSON.parse(data.toString());
+    // _data.forEach(d => {
+    //     console.log(d)
+    // })
+
 </script>
 
 <div class="">

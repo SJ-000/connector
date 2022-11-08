@@ -1,0 +1,560 @@
+{
+	"github.com/bountylabs/service/guest/dynamo": {
+		"pdtv2": [
+			{
+				"posn": "/Users/seongjunk/go/src/github.com/bountylabs/service/guest/dynamo/implementation.go:459:45",
+				"message": "{\"Name\":\"dev-hydra-sessions\",\"Role\":\"\",\"Team\":\"psvc\",\"Project\":\"psvc-default\",\"HasPersonalData\":\"YesPersonalData\",\"Env\":\"prod\",\"Annotations\":{\"FieldAnnotations\":{\"CountdownEndedAtNTPTimestamp\":[\"PrivateTimestamp\"],\"EndedAt\":[\"PrivateTimestamp\"],\"GuestAvatarURL\":[\"ProfileImage\"],\"GuestDisplayName\":[\"DisplayName\"],\"GuestParticipantID\":[\"UserId\"],\"GuestUserID\":[\"UserId\"],\"GuestUsername\":[\"Username\"],\"HostBroadcastID\":[\"BroadcastId\"],\"LastPingedAt\":[\"PrivateTimestamp\"],\"LastUpdatedAt\":[\"PrivateTimestamp\"],\"StartedAt\":[\"PrivateTimestamp\"],\"TwitterUserID\":[\"UserId\"],\"UUID\":[\"UniversallyUniqueIdentifierUuid\"]},\"Schema\":null}}"
+			},
+			{
+				"posn": "/Users/seongjunk/go/src/github.com/bountylabs/service/guest/dynamo/implementation.go:459:45",
+				"message": "{\"Name\":\"prod-hydra-sessions\",\"Role\":\"\",\"Team\":\"psvc\",\"Project\":\"psvc-default\",\"HasPersonalData\":\"YesPersonalData\",\"Env\":\"prod\",\"Annotations\":{\"FieldAnnotations\":{\"CountdownEndedAtNTPTimestamp\":[\"PrivateTimestamp\"],\"EndedAt\":[\"PrivateTimestamp\"],\"GuestAvatarURL\":[\"ProfileImage\"],\"GuestDisplayName\":[\"DisplayName\"],\"GuestParticipantID\":[\"UserId\"],\"GuestUserID\":[\"UserId\"],\"GuestUsername\":[\"Username\"],\"HostBroadcastID\":[\"BroadcastId\"],\"LastPingedAt\":[\"PrivateTimestamp\"],\"LastUpdatedAt\":[\"PrivateTimestamp\"],\"StartedAt\":[\"PrivateTimestamp\"],\"TwitterUserID\":[\"UserId\"],\"UUID\":[\"UniversallyUniqueIdentifierUuid\"]},\"Schema\":null}}"
+			},
+			{
+				"posn": "/Users/seongjunk/go/src/github.com/bountylabs/service/guest/dynamo/implementation.go:1112:45",
+				"message": "{\"Name\":\"dev-decline-speak-history\",\"Role\":\"\",\"Team\":\"psvc\",\"Project\":\"psvc-default\",\"HasPersonalData\":\"YesPersonalData\",\"Env\":\"prod\",\"Annotations\":{\"FieldAnnotations\":{\"BroadcastID\":[\"BroadcastId\"],\"CreatedAt\":[\"PublicTimestamp\"],\"TwitterUserID\":[\"UserId\"],\"UUID\":[\"UniversallyUniqueIdentifierUuid\"]},\"Schema\":null}}"
+			},
+			{
+				"posn": "/Users/seongjunk/go/src/github.com/bountylabs/service/guest/dynamo/implementation.go:1112:45",
+				"message": "{\"Name\":\"prod-decline-speak-history\",\"Role\":\"\",\"Team\":\"psvc\",\"Project\":\"psvc-default\",\"HasPersonalData\":\"YesPersonalData\",\"Env\":\"prod\",\"Annotations\":{\"FieldAnnotations\":{\"BroadcastID\":[\"BroadcastId\"],\"CreatedAt\":[\"PublicTimestamp\"],\"TwitterUserID\":[\"UserId\"],\"UUID\":[\"UniversallyUniqueIdentifierUuid\"]},\"Schema\":null}}"
+			},
+			{
+				"posn": "/Users/seongjunk/go/src/github.com/bountylabs/service/guest/dynamo/audio_spaces.go:72:52",
+				"message": "{\"Name\":\"dev-audio-spaces\",\"Role\":\"\",\"Team\":\"psvc\",\"Project\":\"psvc-default\",\"HasPersonalData\":\"YesPersonalData\",\"Env\":\"prod\",\"Annotations\":{\"FieldAnnotations\":{\"\\\"mentioned_twitter_users\\\"\":[\"UserId\"]},\"Schema\":null}}"
+			},
+			{
+				"posn": "/Users/seongjunk/go/src/github.com/bountylabs/service/guest/dynamo/audio_spaces.go:72:52",
+				"message": "{\"Name\":\"prod-audio-spaces\",\"Role\":\"\",\"Team\":\"psvc\",\"Project\":\"psvc-default\",\"HasPersonalData\":\"YesPersonalData\",\"Env\":\"prod\",\"Annotations\":{\"FieldAnnotations\":{\"\\\"mentioned_twitter_users\\\"\":[\"UserId\"]},\"Schema\":null}}"
+			},
+			{
+				"posn": "/Users/seongjunk/go/src/github.com/bountylabs/service/guest/dynamo/implementation.go:145:45",
+				"message": "{\"Name\":\"dev-hydra-events\",\"Role\":\"\",\"Team\":\"psvc\",\"Project\":\"psvc-default\",\"HasPersonalData\":\"YesPersonalData\",\"Env\":\"prod\",\"Annotations\":{\"FieldAnnotations\":{\"ConversationControls\":[\"PublicBroadcastAndMetadata\",\"PrivateBroadcastAndMetadata\"],\"GuestSessionUUID\":[\"UniversallyUniqueIdentifierUuid\"],\"GuestUserID\":[\"UserId\"],\"HostBroadcastID\":[\"BroadcastId\"],\"HostUserID\":[\"UserId\"],\"Initiator\":[\"UserId\"],\"IsAudioSpace\":[\"PublicBroadcastAndMetadata\",\"PrivateBroadcastAndMetadata\"],\"Timestamp\":[\"PrivateTimestamp\"],\"UUID\":[\"UniversallyUniqueIdentifierUuid\"]},\"Schema\":null}}"
+			},
+			{
+				"posn": "/Users/seongjunk/go/src/github.com/bountylabs/service/guest/dynamo/implementation.go:145:45",
+				"message": "{\"Name\":\"prod-hydra-events\",\"Role\":\"\",\"Team\":\"psvc\",\"Project\":\"psvc-default\",\"HasPersonalData\":\"YesPersonalData\",\"Env\":\"prod\",\"Annotations\":{\"FieldAnnotations\":{\"ConversationControls\":[\"PublicBroadcastAndMetadata\",\"PrivateBroadcastAndMetadata\"],\"GuestSessionUUID\":[\"UniversallyUniqueIdentifierUuid\"],\"GuestUserID\":[\"UserId\"],\"HostBroadcastID\":[\"BroadcastId\"],\"HostUserID\":[\"UserId\"],\"Initiator\":[\"UserId\"],\"IsAudioSpace\":[\"PublicBroadcastAndMetadata\",\"PrivateBroadcastAndMetadata\"],\"Timestamp\":[\"PrivateTimestamp\"],\"UUID\":[\"UniversallyUniqueIdentifierUuid\"]},\"Schema\":null}}"
+			},
+			{
+				"posn": "/Users/seongjunk/go/src/github.com/bountylabs/service/guest/dynamo/implementation.go:977:51",
+				"message": "{\"Name\":\"dev-hydra-broadcasts\",\"Role\":\"\",\"Team\":\"psvc\",\"Project\":\"psvc-default\",\"HasPersonalData\":\"YesPersonalData\",\"Env\":\"prod\",\"Annotations\":{\"FieldAnnotations\":{\"ApprovedRequestorUserIDs\":[\"UserId\"],\"CallInDisabled\":[\"PublicBroadcastAndMetadata\",\"PrivateBroadcastAndMetadata\"],\"EjectedGuestUserIDs\":[\"UserId\"],\"GuestSessions\":[\"UniversallyUniqueIdentifierUuid\",\"PrivateTimestamp\",\"UserId\",\"Username\",\"DisplayName\",\"ProfileImage\",\"BroadcastId\"],\"HostBroadcastID\":[\"BroadcastId\"],\"HostLastPingedAt\":[\"PrivateTimestamp\"],\"HostUserID\":[\"UserId\"],\"LastUpdatedAt\":[\"PrivateTimestamp\"],\"UseSessionCache\":[\"PublicBroadcastAndMetadata\",\"PrivateBroadcastAndMetadata\"]},\"Schema\":null}}"
+			},
+			{
+				"posn": "/Users/seongjunk/go/src/github.com/bountylabs/service/guest/dynamo/implementation.go:977:51",
+				"message": "{\"Name\":\"prod-hydra-broadcasts\",\"Role\":\"\",\"Team\":\"psvc\",\"Project\":\"psvc-default\",\"HasPersonalData\":\"YesPersonalData\",\"Env\":\"prod\",\"Annotations\":{\"FieldAnnotations\":{\"ApprovedRequestorUserIDs\":[\"UserId\"],\"CallInDisabled\":[\"PublicBroadcastAndMetadata\",\"PrivateBroadcastAndMetadata\"],\"EjectedGuestUserIDs\":[\"UserId\"],\"GuestSessions\":[\"UniversallyUniqueIdentifierUuid\",\"PrivateTimestamp\",\"UserId\",\"Username\",\"DisplayName\",\"ProfileImage\",\"BroadcastId\"],\"HostBroadcastID\":[\"BroadcastId\"],\"HostLastPingedAt\":[\"PrivateTimestamp\"],\"HostUserID\":[\"UserId\"],\"LastUpdatedAt\":[\"PrivateTimestamp\"],\"UseSessionCache\":[\"PublicBroadcastAndMetadata\",\"PrivateBroadcastAndMetadata\"]},\"Schema\":null}}"
+			},
+			{
+				"posn": "/Users/seongjunk/go/src/github.com/bountylabs/service/guest/dynamo/audio_spaces.go:33:45",
+				"message": "{\"Name\":\"dev-audio-spaces\",\"Role\":\"\",\"Team\":\"psvc\",\"Project\":\"psvc-default\",\"HasPersonalData\":\"YesPersonalData\",\"Env\":\"prod\",\"Annotations\":{\"FieldAnnotations\":{\"AdminTwitterUserIDs\":[\"UserId\"],\"AdminUserIDs\":[\"UserId\"],\"ApprovedRequestorUserIDs\":[\"UserId\"],\"BroadcastID\":[\"BroadcastId\"],\"ConversationControls\":[\"PublicBroadcastAndMetadata\",\"PrivateBroadcastAndMetadata\"],\"CreatorUserID\":[\"UserId\"],\"EjectedGuestUserIDs\":[\"UserId\"],\"GuestSessions\":[\"UniversallyUniqueIdentifierUuid\",\"PrivateTimestamp\",\"UserId\",\"Username\",\"DisplayName\",\"ProfileImage\",\"BroadcastId\"],\"HasCreatorLeft\":[\"PublicBroadcastAndMetadata\",\"PrivateBroadcastAndMetadata\"],\"HostLastPingedAt\":[\"PrivateTimestamp\"],\"HostTimedOutAt\":[\"PrivateTimestamp\"],\"IsEmployeeOnly\":[\"PublicBroadcastAndMetadata\",\"PrivateBroadcastAndMetadata\"],\"IsEnded\":[\"PublishedState\"],\"IsLocked\":[\"PublicBroadcastAndMetadata\",\"PrivateBroadcastAndMetadata\"],\"IsMuted\":[\"PublicBroadcastAndMetadata\",\"PrivateBroadcastAndMetadata\"],\"IsPublished\":[\"PublishedState\"],\"IsSpaceCreatorMuted\":[\"PublicBroadcastAndMetadata\",\"PrivateBroadcastAndMetadata\"],\"IsVFUnsafe\":[\"PublicBroadcastAndMetadata\",\"PrivateBroadcastAndMetadata\"],\"LastUpdatedAt\":[\"PrivateTimestamp\"],\"MaxAdminCapacity\":[\"PublicBroadcastAndMetadata\",\"PrivateBroadcastAndMetadata\"],\"MentionedTwitterUsers\":[\"UserId\"],\"PendingAdminUserIDs\":[\"UserId\"],\"PrimaryAdminUserID\":[\"UserId\"],\"Rules\":[\"PublicBroadcastAndMetadata\",\"PrivateBroadcastAndMetadata\"],\"TopicIds\":[\"PublicBroadcastAndMetadata\",\"PrivateBroadcastAndMetadata\"],\"VFSafetyLevel\":[\"PublicBroadcastAndMetadata\",\"PrivateBroadcastAndMetadata\"]},\"Schema\":null}}"
+			},
+			{
+				"posn": "/Users/seongjunk/go/src/github.com/bountylabs/service/guest/dynamo/audio_spaces.go:33:45",
+				"message": "{\"Name\":\"prod-audio-spaces\",\"Role\":\"\",\"Team\":\"psvc\",\"Project\":\"psvc-default\",\"HasPersonalData\":\"YesPersonalData\",\"Env\":\"prod\",\"Annotations\":{\"FieldAnnotations\":{\"AdminTwitterUserIDs\":[\"UserId\"],\"AdminUserIDs\":[\"UserId\"],\"ApprovedRequestorUserIDs\":[\"UserId\"],\"BroadcastID\":[\"BroadcastId\"],\"ConversationControls\":[\"PublicBroadcastAndMetadata\",\"PrivateBroadcastAndMetadata\"],\"CreatorUserID\":[\"UserId\"],\"EjectedGuestUserIDs\":[\"UserId\"],\"GuestSessions\":[\"UniversallyUniqueIdentifierUuid\",\"PrivateTimestamp\",\"UserId\",\"Username\",\"DisplayName\",\"ProfileImage\",\"BroadcastId\"],\"HasCreatorLeft\":[\"PublicBroadcastAndMetadata\",\"PrivateBroadcastAndMetadata\"],\"HostLastPingedAt\":[\"PrivateTimestamp\"],\"HostTimedOutAt\":[\"PrivateTimestamp\"],\"IsEmployeeOnly\":[\"PublicBroadcastAndMetadata\",\"PrivateBroadcastAndMetadata\"],\"IsEnded\":[\"PublishedState\"],\"IsLocked\":[\"PublicBroadcastAndMetadata\",\"PrivateBroadcastAndMetadata\"],\"IsMuted\":[\"PublicBroadcastAndMetadata\",\"PrivateBroadcastAndMetadata\"],\"IsPublished\":[\"PublishedState\"],\"IsSpaceCreatorMuted\":[\"PublicBroadcastAndMetadata\",\"PrivateBroadcastAndMetadata\"],\"IsVFUnsafe\":[\"PublicBroadcastAndMetadata\",\"PrivateBroadcastAndMetadata\"],\"LastUpdatedAt\":[\"PrivateTimestamp\"],\"MaxAdminCapacity\":[\"PublicBroadcastAndMetadata\",\"PrivateBroadcastAndMetadata\"],\"MentionedTwitterUsers\":[\"UserId\"],\"PendingAdminUserIDs\":[\"UserId\"],\"PrimaryAdminUserID\":[\"UserId\"],\"Rules\":[\"PublicBroadcastAndMetadata\",\"PrivateBroadcastAndMetadata\"],\"TopicIds\":[\"PublicBroadcastAndMetadata\",\"PrivateBroadcastAndMetadata\"],\"VFSafetyLevel\":[\"PublicBroadcastAndMetadata\",\"PrivateBroadcastAndMetadata\"]},\"Schema\":null}}"
+			},
+			{
+				"posn": "/Users/seongjunk/go/src/github.com/bountylabs/service/guest/dynamo/implementation.go:500:51",
+				"message": "{\"Name\":\"dev-hydra-sessions\",\"Role\":\"\",\"Team\":\"psvc\",\"Project\":\"psvc-default\",\"HasPersonalData\":\"YesPersonalData\",\"Env\":\"prod\",\"Annotations\":{\"FieldAnnotations\":{\"CountdownEndedAtNTPTimestamp\":[\"PrivateTimestamp\"],\"EndedAt\":[\"PrivateTimestamp\"],\"GuestAvatarURL\":[\"ProfileImage\"],\"GuestDisplayName\":[\"DisplayName\"],\"GuestParticipantID\":[\"UserId\"],\"GuestUserID\":[\"UserId\"],\"GuestUsername\":[\"Username\"],\"HostBroadcastID\":[\"BroadcastId\"],\"LastPingedAt\":[\"PrivateTimestamp\"],\"LastUpdatedAt\":[\"PrivateTimestamp\"],\"StartedAt\":[\"PrivateTimestamp\"],\"TwitterUserID\":[\"UserId\"],\"UUID\":[\"UniversallyUniqueIdentifierUuid\"]},\"Schema\":null}}"
+			},
+			{
+				"posn": "/Users/seongjunk/go/src/github.com/bountylabs/service/guest/dynamo/implementation.go:500:51",
+				"message": "{\"Name\":\"prod-hydra-sessions\",\"Role\":\"\",\"Team\":\"psvc\",\"Project\":\"psvc-default\",\"HasPersonalData\":\"YesPersonalData\",\"Env\":\"prod\",\"Annotations\":{\"FieldAnnotations\":{\"CountdownEndedAtNTPTimestamp\":[\"PrivateTimestamp\"],\"EndedAt\":[\"PrivateTimestamp\"],\"GuestAvatarURL\":[\"ProfileImage\"],\"GuestDisplayName\":[\"DisplayName\"],\"GuestParticipantID\":[\"UserId\"],\"GuestUserID\":[\"UserId\"],\"GuestUsername\":[\"Username\"],\"HostBroadcastID\":[\"BroadcastId\"],\"LastPingedAt\":[\"PrivateTimestamp\"],\"LastUpdatedAt\":[\"PrivateTimestamp\"],\"StartedAt\":[\"PrivateTimestamp\"],\"TwitterUserID\":[\"UserId\"],\"UUID\":[\"UniversallyUniqueIdentifierUuid\"]},\"Schema\":null}}"
+			},
+			{
+				"posn": "/Users/seongjunk/go/src/github.com/bountylabs/service/guest/dynamo/implementation.go:186:51",
+				"message": "{\"Name\":\"dev-hydra-events\",\"Role\":\"\",\"Team\":\"psvc\",\"Project\":\"psvc-default\",\"HasPersonalData\":\"YesPersonalData\",\"Env\":\"prod\",\"Annotations\":{\"FieldAnnotations\":{\"ConversationControls\":[\"PublicBroadcastAndMetadata\",\"PrivateBroadcastAndMetadata\"],\"GuestSessionUUID\":[\"UniversallyUniqueIdentifierUuid\"],\"GuestUserID\":[\"UserId\"],\"HostBroadcastID\":[\"BroadcastId\"],\"HostUserID\":[\"UserId\"],\"Initiator\":[\"UserId\"],\"IsAudioSpace\":[\"PublicBroadcastAndMetadata\",\"PrivateBroadcastAndMetadata\"],\"Timestamp\":[\"PrivateTimestamp\"],\"UUID\":[\"UniversallyUniqueIdentifierUuid\"]},\"Schema\":null}}"
+			},
+			{
+				"posn": "/Users/seongjunk/go/src/github.com/bountylabs/service/guest/dynamo/implementation.go:186:51",
+				"message": "{\"Name\":\"prod-hydra-events\",\"Role\":\"\",\"Team\":\"psvc\",\"Project\":\"psvc-default\",\"HasPersonalData\":\"YesPersonalData\",\"Env\":\"prod\",\"Annotations\":{\"FieldAnnotations\":{\"ConversationControls\":[\"PublicBroadcastAndMetadata\",\"PrivateBroadcastAndMetadata\"],\"GuestSessionUUID\":[\"UniversallyUniqueIdentifierUuid\"],\"GuestUserID\":[\"UserId\"],\"HostBroadcastID\":[\"BroadcastId\"],\"HostUserID\":[\"UserId\"],\"Initiator\":[\"UserId\"],\"IsAudioSpace\":[\"PublicBroadcastAndMetadata\",\"PrivateBroadcastAndMetadata\"],\"Timestamp\":[\"PrivateTimestamp\"],\"UUID\":[\"UniversallyUniqueIdentifierUuid\"]},\"Schema\":null}}"
+			},
+			{
+				"posn": "/Users/seongjunk/go/src/github.com/bountylabs/service/guest/dynamo/implementation.go:936:45",
+				"message": "{\"Name\":\"dev-hydra-broadcasts\",\"Role\":\"\",\"Team\":\"psvc\",\"Project\":\"psvc-default\",\"HasPersonalData\":\"YesPersonalData\",\"Env\":\"prod\",\"Annotations\":{\"FieldAnnotations\":{\"ApprovedRequestorUserIDs\":[\"UserId\"],\"CallInDisabled\":[\"PublicBroadcastAndMetadata\",\"PrivateBroadcastAndMetadata\"],\"EjectedGuestUserIDs\":[\"UserId\"],\"GuestSessions\":[\"UniversallyUniqueIdentifierUuid\",\"PrivateTimestamp\",\"UserId\",\"Username\",\"DisplayName\",\"ProfileImage\",\"BroadcastId\"],\"HostBroadcastID\":[\"BroadcastId\"],\"HostLastPingedAt\":[\"PrivateTimestamp\"],\"HostUserID\":[\"UserId\"],\"LastUpdatedAt\":[\"PrivateTimestamp\"],\"UseSessionCache\":[\"PublicBroadcastAndMetadata\",\"PrivateBroadcastAndMetadata\"]},\"Schema\":null}}"
+			},
+			{
+				"posn": "/Users/seongjunk/go/src/github.com/bountylabs/service/guest/dynamo/implementation.go:936:45",
+				"message": "{\"Name\":\"prod-hydra-broadcasts\",\"Role\":\"\",\"Team\":\"psvc\",\"Project\":\"psvc-default\",\"HasPersonalData\":\"YesPersonalData\",\"Env\":\"prod\",\"Annotations\":{\"FieldAnnotations\":{\"ApprovedRequestorUserIDs\":[\"UserId\"],\"CallInDisabled\":[\"PublicBroadcastAndMetadata\",\"PrivateBroadcastAndMetadata\"],\"EjectedGuestUserIDs\":[\"UserId\"],\"GuestSessions\":[\"UniversallyUniqueIdentifierUuid\",\"PrivateTimestamp\",\"UserId\",\"Username\",\"DisplayName\",\"ProfileImage\",\"BroadcastId\"],\"HostBroadcastID\":[\"BroadcastId\"],\"HostLastPingedAt\":[\"PrivateTimestamp\"],\"HostUserID\":[\"UserId\"],\"LastUpdatedAt\":[\"PrivateTimestamp\"],\"UseSessionCache\":[\"PublicBroadcastAndMetadata\",\"PrivateBroadcastAndMetadata\"]},\"Schema\":null}}"
+			},
+			{
+				"posn": "/Users/seongjunk/go/src/github.com/bountylabs/service/guest/dynamo/audio_spaces.go:105:12",
+				"message": "{\"Name\":\"dev-audio-spaces\",\"Role\":\"\",\"Team\":\"psvc\",\"Project\":\"psvc-default\",\"HasPersonalData\":\"YesPersonalData\",\"Env\":\"prod\",\"Annotations\":{\"FieldAnnotations\":{\"AdminTwitterUserIDs\":[\"UserId\"],\"AdminUserIDs\":[\"UserId\"],\"ApprovedRequestorUserIDs\":[\"UserId\"],\"BroadcastID\":[\"BroadcastId\"],\"ConversationControls\":[\"PublicBroadcastAndMetadata\",\"PrivateBroadcastAndMetadata\"],\"CreatorUserID\":[\"UserId\"],\"EjectedGuestUserIDs\":[\"UserId\"],\"GuestSessions\":[\"UniversallyUniqueIdentifierUuid\",\"PrivateTimestamp\",\"UserId\",\"Username\",\"DisplayName\",\"ProfileImage\",\"BroadcastId\"],\"HasCreatorLeft\":[\"PublicBroadcastAndMetadata\",\"PrivateBroadcastAndMetadata\"],\"HostLastPingedAt\":[\"PrivateTimestamp\"],\"HostTimedOutAt\":[\"PrivateTimestamp\"],\"IsEmployeeOnly\":[\"PublicBroadcastAndMetadata\",\"PrivateBroadcastAndMetadata\"],\"IsEnded\":[\"PublishedState\"],\"IsLocked\":[\"PublicBroadcastAndMetadata\",\"PrivateBroadcastAndMetadata\"],\"IsMuted\":[\"PublicBroadcastAndMetadata\",\"PrivateBroadcastAndMetadata\"],\"IsPublished\":[\"PublishedState\"],\"IsSpaceCreatorMuted\":[\"PublicBroadcastAndMetadata\",\"PrivateBroadcastAndMetadata\"],\"IsVFUnsafe\":[\"PublicBroadcastAndMetadata\",\"PrivateBroadcastAndMetadata\"],\"LastUpdatedAt\":[\"PrivateTimestamp\"],\"MaxAdminCapacity\":[\"PublicBroadcastAndMetadata\",\"PrivateBroadcastAndMetadata\"],\"MentionedTwitterUsers\":[\"UserId\"],\"PendingAdminUserIDs\":[\"UserId\"],\"PrimaryAdminUserID\":[\"UserId\"],\"Rules\":[\"PublicBroadcastAndMetadata\",\"PrivateBroadcastAndMetadata\"],\"TopicIds\":[\"PublicBroadcastAndMetadata\",\"PrivateBroadcastAndMetadata\"],\"VFSafetyLevel\":[\"PublicBroadcastAndMetadata\",\"PrivateBroadcastAndMetadata\"]},\"Schema\":null}}"
+			},
+			{
+				"posn": "/Users/seongjunk/go/src/github.com/bountylabs/service/guest/dynamo/audio_spaces.go:105:12",
+				"message": "{\"Name\":\"prod-audio-spaces\",\"Role\":\"\",\"Team\":\"psvc\",\"Project\":\"psvc-default\",\"HasPersonalData\":\"YesPersonalData\",\"Env\":\"prod\",\"Annotations\":{\"FieldAnnotations\":{\"AdminTwitterUserIDs\":[\"UserId\"],\"AdminUserIDs\":[\"UserId\"],\"ApprovedRequestorUserIDs\":[\"UserId\"],\"BroadcastID\":[\"BroadcastId\"],\"ConversationControls\":[\"PublicBroadcastAndMetadata\",\"PrivateBroadcastAndMetadata\"],\"CreatorUserID\":[\"UserId\"],\"EjectedGuestUserIDs\":[\"UserId\"],\"GuestSessions\":[\"UniversallyUniqueIdentifierUuid\",\"PrivateTimestamp\",\"UserId\",\"Username\",\"DisplayName\",\"ProfileImage\",\"BroadcastId\"],\"HasCreatorLeft\":[\"PublicBroadcastAndMetadata\",\"PrivateBroadcastAndMetadata\"],\"HostLastPingedAt\":[\"PrivateTimestamp\"],\"HostTimedOutAt\":[\"PrivateTimestamp\"],\"IsEmployeeOnly\":[\"PublicBroadcastAndMetadata\",\"PrivateBroadcastAndMetadata\"],\"IsEnded\":[\"PublishedState\"],\"IsLocked\":[\"PublicBroadcastAndMetadata\",\"PrivateBroadcastAndMetadata\"],\"IsMuted\":[\"PublicBroadcastAndMetadata\",\"PrivateBroadcastAndMetadata\"],\"IsPublished\":[\"PublishedState\"],\"IsSpaceCreatorMuted\":[\"PublicBroadcastAndMetadata\",\"PrivateBroadcastAndMetadata\"],\"IsVFUnsafe\":[\"PublicBroadcastAndMetadata\",\"PrivateBroadcastAndMetadata\"],\"LastUpdatedAt\":[\"PrivateTimestamp\"],\"MaxAdminCapacity\":[\"PublicBroadcastAndMetadata\",\"PrivateBroadcastAndMetadata\"],\"MentionedTwitterUsers\":[\"UserId\"],\"PendingAdminUserIDs\":[\"UserId\"],\"PrimaryAdminUserID\":[\"UserId\"],\"Rules\":[\"PublicBroadcastAndMetadata\",\"PrivateBroadcastAndMetadata\"],\"TopicIds\":[\"PublicBroadcastAndMetadata\",\"PrivateBroadcastAndMetadata\"],\"VFSafetyLevel\":[\"PublicBroadcastAndMetadata\",\"PrivateBroadcastAndMetadata\"]},\"Schema\":null}}"
+			}
+		]
+	},
+	"github.com/bountylabs/service/guest/dynamo [github.com/bountylabs/service/guest/dynamo.test]": {
+		"pdtv2": [
+			{
+				"posn": "/Users/seongjunk/go/src/github.com/bountylabs/service/guest/dynamo/audio_spaces.go:72:52",
+				"message": "{\"Name\":\"dev-audio-spaces\",\"Role\":\"\",\"Team\":\"psvc\",\"Project\":\"psvc-default\",\"HasPersonalData\":\"YesPersonalData\",\"Env\":\"prod\",\"Annotations\":{\"FieldAnnotations\":{\"\\\"mentioned_twitter_users\\\"\":[\"UserId\"]},\"Schema\":null}}"
+			},
+			{
+				"posn": "/Users/seongjunk/go/src/github.com/bountylabs/service/guest/dynamo/audio_spaces.go:72:52",
+				"message": "{\"Name\":\"prod-audio-spaces\",\"Role\":\"\",\"Team\":\"psvc\",\"Project\":\"psvc-default\",\"HasPersonalData\":\"YesPersonalData\",\"Env\":\"prod\",\"Annotations\":{\"FieldAnnotations\":{\"\\\"mentioned_twitter_users\\\"\":[\"UserId\"]},\"Schema\":null}}"
+			},
+			{
+				"posn": "/Users/seongjunk/go/src/github.com/bountylabs/service/guest/dynamo/audio_spaces.go:105:12",
+				"message": "{\"Name\":\"dev-audio-spaces\",\"Role\":\"\",\"Team\":\"psvc\",\"Project\":\"psvc-default\",\"HasPersonalData\":\"YesPersonalData\",\"Env\":\"prod\",\"Annotations\":{\"FieldAnnotations\":{\"AdminTwitterUserIDs\":[\"UserId\"],\"AdminUserIDs\":[\"UserId\"],\"ApprovedRequestorUserIDs\":[\"UserId\"],\"BroadcastID\":[\"BroadcastId\"],\"ConversationControls\":[\"PublicBroadcastAndMetadata\",\"PrivateBroadcastAndMetadata\"],\"CreatorUserID\":[\"UserId\"],\"EjectedGuestUserIDs\":[\"UserId\"],\"GuestSessions\":[\"UniversallyUniqueIdentifierUuid\",\"PrivateTimestamp\",\"UserId\",\"Username\",\"DisplayName\",\"ProfileImage\",\"BroadcastId\"],\"HasCreatorLeft\":[\"PublicBroadcastAndMetadata\",\"PrivateBroadcastAndMetadata\"],\"HostLastPingedAt\":[\"PrivateTimestamp\"],\"HostTimedOutAt\":[\"PrivateTimestamp\"],\"IsEmployeeOnly\":[\"PublicBroadcastAndMetadata\",\"PrivateBroadcastAndMetadata\"],\"IsEnded\":[\"PublishedState\"],\"IsLocked\":[\"PublicBroadcastAndMetadata\",\"PrivateBroadcastAndMetadata\"],\"IsMuted\":[\"PublicBroadcastAndMetadata\",\"PrivateBroadcastAndMetadata\"],\"IsPublished\":[\"PublishedState\"],\"IsSpaceCreatorMuted\":[\"PublicBroadcastAndMetadata\",\"PrivateBroadcastAndMetadata\"],\"IsVFUnsafe\":[\"PublicBroadcastAndMetadata\",\"PrivateBroadcastAndMetadata\"],\"LastUpdatedAt\":[\"PrivateTimestamp\"],\"MaxAdminCapacity\":[\"PublicBroadcastAndMetadata\",\"PrivateBroadcastAndMetadata\"],\"MentionedTwitterUsers\":[\"UserId\"],\"PendingAdminUserIDs\":[\"UserId\"],\"PrimaryAdminUserID\":[\"UserId\"],\"Rules\":[\"PublicBroadcastAndMetadata\",\"PrivateBroadcastAndMetadata\"],\"TopicIds\":[\"PublicBroadcastAndMetadata\",\"PrivateBroadcastAndMetadata\"],\"VFSafetyLevel\":[\"PublicBroadcastAndMetadata\",\"PrivateBroadcastAndMetadata\"]},\"Schema\":null}}"
+			},
+			{
+				"posn": "/Users/seongjunk/go/src/github.com/bountylabs/service/guest/dynamo/audio_spaces.go:105:12",
+				"message": "{\"Name\":\"prod-audio-spaces\",\"Role\":\"\",\"Team\":\"psvc\",\"Project\":\"psvc-default\",\"HasPersonalData\":\"YesPersonalData\",\"Env\":\"prod\",\"Annotations\":{\"FieldAnnotations\":{\"AdminTwitterUserIDs\":[\"UserId\"],\"AdminUserIDs\":[\"UserId\"],\"ApprovedRequestorUserIDs\":[\"UserId\"],\"BroadcastID\":[\"BroadcastId\"],\"ConversationControls\":[\"PublicBroadcastAndMetadata\",\"PrivateBroadcastAndMetadata\"],\"CreatorUserID\":[\"UserId\"],\"EjectedGuestUserIDs\":[\"UserId\"],\"GuestSessions\":[\"UniversallyUniqueIdentifierUuid\",\"PrivateTimestamp\",\"UserId\",\"Username\",\"DisplayName\",\"ProfileImage\",\"BroadcastId\"],\"HasCreatorLeft\":[\"PublicBroadcastAndMetadata\",\"PrivateBroadcastAndMetadata\"],\"HostLastPingedAt\":[\"PrivateTimestamp\"],\"HostTimedOutAt\":[\"PrivateTimestamp\"],\"IsEmployeeOnly\":[\"PublicBroadcastAndMetadata\",\"PrivateBroadcastAndMetadata\"],\"IsEnded\":[\"PublishedState\"],\"IsLocked\":[\"PublicBroadcastAndMetadata\",\"PrivateBroadcastAndMetadata\"],\"IsMuted\":[\"PublicBroadcastAndMetadata\",\"PrivateBroadcastAndMetadata\"],\"IsPublished\":[\"PublishedState\"],\"IsSpaceCreatorMuted\":[\"PublicBroadcastAndMetadata\",\"PrivateBroadcastAndMetadata\"],\"IsVFUnsafe\":[\"PublicBroadcastAndMetadata\",\"PrivateBroadcastAndMetadata\"],\"LastUpdatedAt\":[\"PrivateTimestamp\"],\"MaxAdminCapacity\":[\"PublicBroadcastAndMetadata\",\"PrivateBroadcastAndMetadata\"],\"MentionedTwitterUsers\":[\"UserId\"],\"PendingAdminUserIDs\":[\"UserId\"],\"PrimaryAdminUserID\":[\"UserId\"],\"Rules\":[\"PublicBroadcastAndMetadata\",\"PrivateBroadcastAndMetadata\"],\"TopicIds\":[\"PublicBroadcastAndMetadata\",\"PrivateBroadcastAndMetadata\"],\"VFSafetyLevel\":[\"PublicBroadcastAndMetadata\",\"PrivateBroadcastAndMetadata\"]},\"Schema\":null}}"
+			},
+			{
+				"posn": "/Users/seongjunk/go/src/github.com/bountylabs/service/guest/dynamo/implementation.go:459:45",
+				"message": "{\"Name\":\"dev-hydra-sessions\",\"Role\":\"\",\"Team\":\"psvc\",\"Project\":\"psvc-default\",\"HasPersonalData\":\"YesPersonalData\",\"Env\":\"prod\",\"Annotations\":{\"FieldAnnotations\":{\"CountdownEndedAtNTPTimestamp\":[\"PrivateTimestamp\"],\"EndedAt\":[\"PrivateTimestamp\"],\"GuestAvatarURL\":[\"ProfileImage\"],\"GuestDisplayName\":[\"DisplayName\"],\"GuestParticipantID\":[\"UserId\"],\"GuestUserID\":[\"UserId\"],\"GuestUsername\":[\"Username\"],\"HostBroadcastID\":[\"BroadcastId\"],\"LastPingedAt\":[\"PrivateTimestamp\"],\"LastUpdatedAt\":[\"PrivateTimestamp\"],\"StartedAt\":[\"PrivateTimestamp\"],\"TwitterUserID\":[\"UserId\"],\"UUID\":[\"UniversallyUniqueIdentifierUuid\"]},\"Schema\":null}}"
+			},
+			{
+				"posn": "/Users/seongjunk/go/src/github.com/bountylabs/service/guest/dynamo/implementation.go:459:45",
+				"message": "{\"Name\":\"prod-hydra-sessions\",\"Role\":\"\",\"Team\":\"psvc\",\"Project\":\"psvc-default\",\"HasPersonalData\":\"YesPersonalData\",\"Env\":\"prod\",\"Annotations\":{\"FieldAnnotations\":{\"CountdownEndedAtNTPTimestamp\":[\"PrivateTimestamp\"],\"EndedAt\":[\"PrivateTimestamp\"],\"GuestAvatarURL\":[\"ProfileImage\"],\"GuestDisplayName\":[\"DisplayName\"],\"GuestParticipantID\":[\"UserId\"],\"GuestUserID\":[\"UserId\"],\"GuestUsername\":[\"Username\"],\"HostBroadcastID\":[\"BroadcastId\"],\"LastPingedAt\":[\"PrivateTimestamp\"],\"LastUpdatedAt\":[\"PrivateTimestamp\"],\"StartedAt\":[\"PrivateTimestamp\"],\"TwitterUserID\":[\"UserId\"],\"UUID\":[\"UniversallyUniqueIdentifierUuid\"]},\"Schema\":null}}"
+			},
+			{
+				"posn": "/Users/seongjunk/go/src/github.com/bountylabs/service/guest/dynamo/implementation.go:500:51",
+				"message": "{\"Name\":\"dev-hydra-sessions\",\"Role\":\"\",\"Team\":\"psvc\",\"Project\":\"psvc-default\",\"HasPersonalData\":\"YesPersonalData\",\"Env\":\"prod\",\"Annotations\":{\"FieldAnnotations\":{\"CountdownEndedAtNTPTimestamp\":[\"PrivateTimestamp\"],\"EndedAt\":[\"PrivateTimestamp\"],\"GuestAvatarURL\":[\"ProfileImage\"],\"GuestDisplayName\":[\"DisplayName\"],\"GuestParticipantID\":[\"UserId\"],\"GuestUserID\":[\"UserId\"],\"GuestUsername\":[\"Username\"],\"HostBroadcastID\":[\"BroadcastId\"],\"LastPingedAt\":[\"PrivateTimestamp\"],\"LastUpdatedAt\":[\"PrivateTimestamp\"],\"StartedAt\":[\"PrivateTimestamp\"],\"TwitterUserID\":[\"UserId\"],\"UUID\":[\"UniversallyUniqueIdentifierUuid\"]},\"Schema\":null}}"
+			},
+			{
+				"posn": "/Users/seongjunk/go/src/github.com/bountylabs/service/guest/dynamo/implementation.go:500:51",
+				"message": "{\"Name\":\"prod-hydra-sessions\",\"Role\":\"\",\"Team\":\"psvc\",\"Project\":\"psvc-default\",\"HasPersonalData\":\"YesPersonalData\",\"Env\":\"prod\",\"Annotations\":{\"FieldAnnotations\":{\"CountdownEndedAtNTPTimestamp\":[\"PrivateTimestamp\"],\"EndedAt\":[\"PrivateTimestamp\"],\"GuestAvatarURL\":[\"ProfileImage\"],\"GuestDisplayName\":[\"DisplayName\"],\"GuestParticipantID\":[\"UserId\"],\"GuestUserID\":[\"UserId\"],\"GuestUsername\":[\"Username\"],\"HostBroadcastID\":[\"BroadcastId\"],\"LastPingedAt\":[\"PrivateTimestamp\"],\"LastUpdatedAt\":[\"PrivateTimestamp\"],\"StartedAt\":[\"PrivateTimestamp\"],\"TwitterUserID\":[\"UserId\"],\"UUID\":[\"UniversallyUniqueIdentifierUuid\"]},\"Schema\":null}}"
+			},
+			{
+				"posn": "/Users/seongjunk/go/src/github.com/bountylabs/service/guest/dynamo/implementation.go:1112:45",
+				"message": "{\"Name\":\"dev-decline-speak-history\",\"Role\":\"\",\"Team\":\"psvc\",\"Project\":\"psvc-default\",\"HasPersonalData\":\"YesPersonalData\",\"Env\":\"prod\",\"Annotations\":{\"FieldAnnotations\":{\"BroadcastID\":[\"BroadcastId\"],\"CreatedAt\":[\"PublicTimestamp\"],\"TwitterUserID\":[\"UserId\"],\"UUID\":[\"UniversallyUniqueIdentifierUuid\"]},\"Schema\":null}}"
+			},
+			{
+				"posn": "/Users/seongjunk/go/src/github.com/bountylabs/service/guest/dynamo/implementation.go:1112:45",
+				"message": "{\"Name\":\"prod-decline-speak-history\",\"Role\":\"\",\"Team\":\"psvc\",\"Project\":\"psvc-default\",\"HasPersonalData\":\"YesPersonalData\",\"Env\":\"prod\",\"Annotations\":{\"FieldAnnotations\":{\"BroadcastID\":[\"BroadcastId\"],\"CreatedAt\":[\"PublicTimestamp\"],\"TwitterUserID\":[\"UserId\"],\"UUID\":[\"UniversallyUniqueIdentifierUuid\"]},\"Schema\":null}}"
+			},
+			{
+				"posn": "/Users/seongjunk/go/src/github.com/bountylabs/service/guest/dynamo/implementation.go:936:45",
+				"message": "{\"Name\":\"dev-hydra-broadcasts\",\"Role\":\"\",\"Team\":\"psvc\",\"Project\":\"psvc-default\",\"HasPersonalData\":\"YesPersonalData\",\"Env\":\"prod\",\"Annotations\":{\"FieldAnnotations\":{\"ApprovedRequestorUserIDs\":[\"UserId\"],\"CallInDisabled\":[\"PublicBroadcastAndMetadata\",\"PrivateBroadcastAndMetadata\"],\"EjectedGuestUserIDs\":[\"UserId\"],\"GuestSessions\":[\"UniversallyUniqueIdentifierUuid\",\"PrivateTimestamp\",\"UserId\",\"Username\",\"DisplayName\",\"ProfileImage\",\"BroadcastId\"],\"HostBroadcastID\":[\"BroadcastId\"],\"HostLastPingedAt\":[\"PrivateTimestamp\"],\"HostUserID\":[\"UserId\"],\"LastUpdatedAt\":[\"PrivateTimestamp\"],\"UseSessionCache\":[\"PublicBroadcastAndMetadata\",\"PrivateBroadcastAndMetadata\"]},\"Schema\":null}}"
+			},
+			{
+				"posn": "/Users/seongjunk/go/src/github.com/bountylabs/service/guest/dynamo/implementation.go:936:45",
+				"message": "{\"Name\":\"prod-hydra-broadcasts\",\"Role\":\"\",\"Team\":\"psvc\",\"Project\":\"psvc-default\",\"HasPersonalData\":\"YesPersonalData\",\"Env\":\"prod\",\"Annotations\":{\"FieldAnnotations\":{\"ApprovedRequestorUserIDs\":[\"UserId\"],\"CallInDisabled\":[\"PublicBroadcastAndMetadata\",\"PrivateBroadcastAndMetadata\"],\"EjectedGuestUserIDs\":[\"UserId\"],\"GuestSessions\":[\"UniversallyUniqueIdentifierUuid\",\"PrivateTimestamp\",\"UserId\",\"Username\",\"DisplayName\",\"ProfileImage\",\"BroadcastId\"],\"HostBroadcastID\":[\"BroadcastId\"],\"HostLastPingedAt\":[\"PrivateTimestamp\"],\"HostUserID\":[\"UserId\"],\"LastUpdatedAt\":[\"PrivateTimestamp\"],\"UseSessionCache\":[\"PublicBroadcastAndMetadata\",\"PrivateBroadcastAndMetadata\"]},\"Schema\":null}}"
+			},
+			{
+				"posn": "/Users/seongjunk/go/src/github.com/bountylabs/service/guest/dynamo/implementation.go:977:51",
+				"message": "{\"Name\":\"dev-hydra-broadcasts\",\"Role\":\"\",\"Team\":\"psvc\",\"Project\":\"psvc-default\",\"HasPersonalData\":\"YesPersonalData\",\"Env\":\"prod\",\"Annotations\":{\"FieldAnnotations\":{\"ApprovedRequestorUserIDs\":[\"UserId\"],\"CallInDisabled\":[\"PublicBroadcastAndMetadata\",\"PrivateBroadcastAndMetadata\"],\"EjectedGuestUserIDs\":[\"UserId\"],\"GuestSessions\":[\"UniversallyUniqueIdentifierUuid\",\"PrivateTimestamp\",\"UserId\",\"Username\",\"DisplayName\",\"ProfileImage\",\"BroadcastId\"],\"HostBroadcastID\":[\"BroadcastId\"],\"HostLastPingedAt\":[\"PrivateTimestamp\"],\"HostUserID\":[\"UserId\"],\"LastUpdatedAt\":[\"PrivateTimestamp\"],\"UseSessionCache\":[\"PublicBroadcastAndMetadata\",\"PrivateBroadcastAndMetadata\"]},\"Schema\":null}}"
+			},
+			{
+				"posn": "/Users/seongjunk/go/src/github.com/bountylabs/service/guest/dynamo/implementation.go:977:51",
+				"message": "{\"Name\":\"prod-hydra-broadcasts\",\"Role\":\"\",\"Team\":\"psvc\",\"Project\":\"psvc-default\",\"HasPersonalData\":\"YesPersonalData\",\"Env\":\"prod\",\"Annotations\":{\"FieldAnnotations\":{\"ApprovedRequestorUserIDs\":[\"UserId\"],\"CallInDisabled\":[\"PublicBroadcastAndMetadata\",\"PrivateBroadcastAndMetadata\"],\"EjectedGuestUserIDs\":[\"UserId\"],\"GuestSessions\":[\"UniversallyUniqueIdentifierUuid\",\"PrivateTimestamp\",\"UserId\",\"Username\",\"DisplayName\",\"ProfileImage\",\"BroadcastId\"],\"HostBroadcastID\":[\"BroadcastId\"],\"HostLastPingedAt\":[\"PrivateTimestamp\"],\"HostUserID\":[\"UserId\"],\"LastUpdatedAt\":[\"PrivateTimestamp\"],\"UseSessionCache\":[\"PublicBroadcastAndMetadata\",\"PrivateBroadcastAndMetadata\"]},\"Schema\":null}}"
+			},
+			{
+				"posn": "/Users/seongjunk/go/src/github.com/bountylabs/service/guest/dynamo/implementation.go:186:51",
+				"message": "{\"Name\":\"dev-hydra-events\",\"Role\":\"\",\"Team\":\"psvc\",\"Project\":\"psvc-default\",\"HasPersonalData\":\"YesPersonalData\",\"Env\":\"prod\",\"Annotations\":{\"FieldAnnotations\":{\"ConversationControls\":[\"PublicBroadcastAndMetadata\",\"PrivateBroadcastAndMetadata\"],\"GuestSessionUUID\":[\"UniversallyUniqueIdentifierUuid\"],\"GuestUserID\":[\"UserId\"],\"HostBroadcastID\":[\"BroadcastId\"],\"HostUserID\":[\"UserId\"],\"Initiator\":[\"UserId\"],\"IsAudioSpace\":[\"PublicBroadcastAndMetadata\",\"PrivateBroadcastAndMetadata\"],\"Timestamp\":[\"PrivateTimestamp\"],\"UUID\":[\"UniversallyUniqueIdentifierUuid\"]},\"Schema\":null}}"
+			},
+			{
+				"posn": "/Users/seongjunk/go/src/github.com/bountylabs/service/guest/dynamo/implementation.go:186:51",
+				"message": "{\"Name\":\"prod-hydra-events\",\"Role\":\"\",\"Team\":\"psvc\",\"Project\":\"psvc-default\",\"HasPersonalData\":\"YesPersonalData\",\"Env\":\"prod\",\"Annotations\":{\"FieldAnnotations\":{\"ConversationControls\":[\"PublicBroadcastAndMetadata\",\"PrivateBroadcastAndMetadata\"],\"GuestSessionUUID\":[\"UniversallyUniqueIdentifierUuid\"],\"GuestUserID\":[\"UserId\"],\"HostBroadcastID\":[\"BroadcastId\"],\"HostUserID\":[\"UserId\"],\"Initiator\":[\"UserId\"],\"IsAudioSpace\":[\"PublicBroadcastAndMetadata\",\"PrivateBroadcastAndMetadata\"],\"Timestamp\":[\"PrivateTimestamp\"],\"UUID\":[\"UniversallyUniqueIdentifierUuid\"]},\"Schema\":null}}"
+			},
+			{
+				"posn": "/Users/seongjunk/go/src/github.com/bountylabs/service/guest/dynamo/audio_spaces.go:33:45",
+				"message": "{\"Name\":\"dev-audio-spaces\",\"Role\":\"\",\"Team\":\"psvc\",\"Project\":\"psvc-default\",\"HasPersonalData\":\"YesPersonalData\",\"Env\":\"prod\",\"Annotations\":{\"FieldAnnotations\":{\"AdminTwitterUserIDs\":[\"UserId\"],\"AdminUserIDs\":[\"UserId\"],\"ApprovedRequestorUserIDs\":[\"UserId\"],\"BroadcastID\":[\"BroadcastId\"],\"ConversationControls\":[\"PublicBroadcastAndMetadata\",\"PrivateBroadcastAndMetadata\"],\"CreatorUserID\":[\"UserId\"],\"EjectedGuestUserIDs\":[\"UserId\"],\"GuestSessions\":[\"UniversallyUniqueIdentifierUuid\",\"PrivateTimestamp\",\"UserId\",\"Username\",\"DisplayName\",\"ProfileImage\",\"BroadcastId\"],\"HasCreatorLeft\":[\"PublicBroadcastAndMetadata\",\"PrivateBroadcastAndMetadata\"],\"HostLastPingedAt\":[\"PrivateTimestamp\"],\"HostTimedOutAt\":[\"PrivateTimestamp\"],\"IsEmployeeOnly\":[\"PublicBroadcastAndMetadata\",\"PrivateBroadcastAndMetadata\"],\"IsEnded\":[\"PublishedState\"],\"IsLocked\":[\"PublicBroadcastAndMetadata\",\"PrivateBroadcastAndMetadata\"],\"IsMuted\":[\"PublicBroadcastAndMetadata\",\"PrivateBroadcastAndMetadata\"],\"IsPublished\":[\"PublishedState\"],\"IsSpaceCreatorMuted\":[\"PublicBroadcastAndMetadata\",\"PrivateBroadcastAndMetadata\"],\"IsVFUnsafe\":[\"PublicBroadcastAndMetadata\",\"PrivateBroadcastAndMetadata\"],\"LastUpdatedAt\":[\"PrivateTimestamp\"],\"MaxAdminCapacity\":[\"PublicBroadcastAndMetadata\",\"PrivateBroadcastAndMetadata\"],\"MentionedTwitterUsers\":[\"UserId\"],\"PendingAdminUserIDs\":[\"UserId\"],\"PrimaryAdminUserID\":[\"UserId\"],\"Rules\":[\"PublicBroadcastAndMetadata\",\"PrivateBroadcastAndMetadata\"],\"TopicIds\":[\"PublicBroadcastAndMetadata\",\"PrivateBroadcastAndMetadata\"],\"VFSafetyLevel\":[\"PublicBroadcastAndMetadata\",\"PrivateBroadcastAndMetadata\"]},\"Schema\":null}}"
+			},
+			{
+				"posn": "/Users/seongjunk/go/src/github.com/bountylabs/service/guest/dynamo/audio_spaces.go:33:45",
+				"message": "{\"Name\":\"prod-audio-spaces\",\"Role\":\"\",\"Team\":\"psvc\",\"Project\":\"psvc-default\",\"HasPersonalData\":\"YesPersonalData\",\"Env\":\"prod\",\"Annotations\":{\"FieldAnnotations\":{\"AdminTwitterUserIDs\":[\"UserId\"],\"AdminUserIDs\":[\"UserId\"],\"ApprovedRequestorUserIDs\":[\"UserId\"],\"BroadcastID\":[\"BroadcastId\"],\"ConversationControls\":[\"PublicBroadcastAndMetadata\",\"PrivateBroadcastAndMetadata\"],\"CreatorUserID\":[\"UserId\"],\"EjectedGuestUserIDs\":[\"UserId\"],\"GuestSessions\":[\"UniversallyUniqueIdentifierUuid\",\"PrivateTimestamp\",\"UserId\",\"Username\",\"DisplayName\",\"ProfileImage\",\"BroadcastId\"],\"HasCreatorLeft\":[\"PublicBroadcastAndMetadata\",\"PrivateBroadcastAndMetadata\"],\"HostLastPingedAt\":[\"PrivateTimestamp\"],\"HostTimedOutAt\":[\"PrivateTimestamp\"],\"IsEmployeeOnly\":[\"PublicBroadcastAndMetadata\",\"PrivateBroadcastAndMetadata\"],\"IsEnded\":[\"PublishedState\"],\"IsLocked\":[\"PublicBroadcastAndMetadata\",\"PrivateBroadcastAndMetadata\"],\"IsMuted\":[\"PublicBroadcastAndMetadata\",\"PrivateBroadcastAndMetadata\"],\"IsPublished\":[\"PublishedState\"],\"IsSpaceCreatorMuted\":[\"PublicBroadcastAndMetadata\",\"PrivateBroadcastAndMetadata\"],\"IsVFUnsafe\":[\"PublicBroadcastAndMetadata\",\"PrivateBroadcastAndMetadata\"],\"LastUpdatedAt\":[\"PrivateTimestamp\"],\"MaxAdminCapacity\":[\"PublicBroadcastAndMetadata\",\"PrivateBroadcastAndMetadata\"],\"MentionedTwitterUsers\":[\"UserId\"],\"PendingAdminUserIDs\":[\"UserId\"],\"PrimaryAdminUserID\":[\"UserId\"],\"Rules\":[\"PublicBroadcastAndMetadata\",\"PrivateBroadcastAndMetadata\"],\"TopicIds\":[\"PublicBroadcastAndMetadata\",\"PrivateBroadcastAndMetadata\"],\"VFSafetyLevel\":[\"PublicBroadcastAndMetadata\",\"PrivateBroadcastAndMetadata\"]},\"Schema\":null}}"
+			},
+			{
+				"posn": "/Users/seongjunk/go/src/github.com/bountylabs/service/guest/dynamo/implementation.go:145:45",
+				"message": "{\"Name\":\"dev-hydra-events\",\"Role\":\"\",\"Team\":\"psvc\",\"Project\":\"psvc-default\",\"HasPersonalData\":\"YesPersonalData\",\"Env\":\"prod\",\"Annotations\":{\"FieldAnnotations\":{\"ConversationControls\":[\"PublicBroadcastAndMetadata\",\"PrivateBroadcastAndMetadata\"],\"GuestSessionUUID\":[\"UniversallyUniqueIdentifierUuid\"],\"GuestUserID\":[\"UserId\"],\"HostBroadcastID\":[\"BroadcastId\"],\"HostUserID\":[\"UserId\"],\"Initiator\":[\"UserId\"],\"IsAudioSpace\":[\"PublicBroadcastAndMetadata\",\"PrivateBroadcastAndMetadata\"],\"Timestamp\":[\"PrivateTimestamp\"],\"UUID\":[\"UniversallyUniqueIdentifierUuid\"]},\"Schema\":null}}"
+			},
+			{
+				"posn": "/Users/seongjunk/go/src/github.com/bountylabs/service/guest/dynamo/implementation.go:145:45",
+				"message": "{\"Name\":\"prod-hydra-events\",\"Role\":\"\",\"Team\":\"psvc\",\"Project\":\"psvc-default\",\"HasPersonalData\":\"YesPersonalData\",\"Env\":\"prod\",\"Annotations\":{\"FieldAnnotations\":{\"ConversationControls\":[\"PublicBroadcastAndMetadata\",\"PrivateBroadcastAndMetadata\"],\"GuestSessionUUID\":[\"UniversallyUniqueIdentifierUuid\"],\"GuestUserID\":[\"UserId\"],\"HostBroadcastID\":[\"BroadcastId\"],\"HostUserID\":[\"UserId\"],\"Initiator\":[\"UserId\"],\"IsAudioSpace\":[\"PublicBroadcastAndMetadata\",\"PrivateBroadcastAndMetadata\"],\"Timestamp\":[\"PrivateTimestamp\"],\"UUID\":[\"UniversallyUniqueIdentifierUuid\"]},\"Schema\":null}}"
+			}
+		]
+	},
+	"github.com/bountylabs/service/channels/actions": {
+		"pdtv2": [
+			{
+				"posn": "/Users/seongjunk/go/src/github.com/bountylabs/service/channels/actions/actions.go:105:2",
+				"message": "{\"Name\":\"github.com/bountylabs/service/channels/actions.ModerationChannelAction.dev-kinesis-metrics-consumer-KinesisStream-95A9K3Y2HW7T\",\"Role\":\"\",\"Team\":\"psvc\",\"Project\":\"psvc-default\",\"HasPersonalData\":\"YesPersonalData\",\"Env\":\"prod\",\"Annotations\":{\"FieldAnnotations\":{\"ActionTime\":[\"CustomerServiceAgentModeratorTimestamp\"],\"ActorDescription\":[\"Bio\"],\"ActorDisplayName\":[\"DisplayName\"],\"ActorUserId\":[\"UserId\"],\"ActorUsername\":[\"Username\"],\"BanReasonCode\":[\"PolicyViolation\"],\"BannedUserId\":[\"UserId\"],\"BotmakerDeviceId\":[\"DeviceId\"],\"BroadcastId\":[\"BroadcastId\"],\"ById\":[\"UserId\"],\"Cid\":[\"ChannelInfo\"],\"MemberId\":[\"UserId\"],\"Note\":[\"PolicyViolation\"],\"Type\":[\"AnnotationValue\"],\"UserDisputed\":[\"CustomerServiceCaseInformation\"]},\"Schema\":null}}"
+			},
+			{
+				"posn": "/Users/seongjunk/go/src/github.com/bountylabs/service/channels/actions/actions.go:105:2",
+				"message": "{\"Name\":\"github.com/bountylabs/service/channels/actions.ModerationChannelAction.prod-kinesis-metrics-consumer-KinesisStream-Z0W9ZACCBDAJ\",\"Role\":\"\",\"Team\":\"psvc\",\"Project\":\"psvc-default\",\"HasPersonalData\":\"YesPersonalData\",\"Env\":\"prod\",\"Annotations\":{\"FieldAnnotations\":{\"ActionTime\":[\"CustomerServiceAgentModeratorTimestamp\"],\"ActorDescription\":[\"Bio\"],\"ActorDisplayName\":[\"DisplayName\"],\"ActorUserId\":[\"UserId\"],\"ActorUsername\":[\"Username\"],\"BanReasonCode\":[\"PolicyViolation\"],\"BannedUserId\":[\"UserId\"],\"BotmakerDeviceId\":[\"DeviceId\"],\"BroadcastId\":[\"BroadcastId\"],\"ById\":[\"UserId\"],\"Cid\":[\"ChannelInfo\"],\"MemberId\":[\"UserId\"],\"Note\":[\"PolicyViolation\"],\"Type\":[\"AnnotationValue\"],\"UserDisputed\":[\"CustomerServiceCaseInformation\"]},\"Schema\":null}}"
+			},
+			{
+				"posn": "/Users/seongjunk/go/src/github.com/bountylabs/service/channels/actions/actions.go:108:13",
+				"message": "{\"Name\":\"github.com/bountylabs/service/channels/actions.ModerationChannelAction.kinesis-moderation-events-dev-Stream-458UCQA5YHQ6\",\"Role\":\"\",\"Team\":\"psvc\",\"Project\":\"psvc-default\",\"HasPersonalData\":\"YesPersonalData\",\"Env\":\"prod\",\"Annotations\":{\"FieldAnnotations\":{\"ActionTime\":[\"CustomerServiceAgentModeratorTimestamp\"],\"ActorDescription\":[\"Bio\"],\"ActorDisplayName\":[\"DisplayName\"],\"ActorUserId\":[\"UserId\"],\"ActorUsername\":[\"Username\"],\"BanReasonCode\":[\"PolicyViolation\"],\"BannedUserId\":[\"UserId\"],\"BotmakerDeviceId\":[\"DeviceId\"],\"BroadcastId\":[\"BroadcastId\"],\"ById\":[\"UserId\"],\"Cid\":[\"ChannelInfo\"],\"MemberId\":[\"UserId\"],\"Note\":[\"PolicyViolation\"],\"Type\":[\"AnnotationValue\"],\"UserDisputed\":[\"CustomerServiceCaseInformation\"]},\"Schema\":null}}"
+			},
+			{
+				"posn": "/Users/seongjunk/go/src/github.com/bountylabs/service/channels/actions/actions.go:108:13",
+				"message": "{\"Name\":\"github.com/bountylabs/service/channels/actions.ModerationChannelAction.kinesis-moderation-events-prod-Stream-1SFDI4Y1XX7AU\",\"Role\":\"\",\"Team\":\"psvc\",\"Project\":\"psvc-default\",\"HasPersonalData\":\"YesPersonalData\",\"Env\":\"prod\",\"Annotations\":{\"FieldAnnotations\":{\"ActionTime\":[\"CustomerServiceAgentModeratorTimestamp\"],\"ActorDescription\":[\"Bio\"],\"ActorDisplayName\":[\"DisplayName\"],\"ActorUserId\":[\"UserId\"],\"ActorUsername\":[\"Username\"],\"BanReasonCode\":[\"PolicyViolation\"],\"BannedUserId\":[\"UserId\"],\"BotmakerDeviceId\":[\"DeviceId\"],\"BroadcastId\":[\"BroadcastId\"],\"ById\":[\"UserId\"],\"Cid\":[\"ChannelInfo\"],\"MemberId\":[\"UserId\"],\"Note\":[\"PolicyViolation\"],\"Type\":[\"AnnotationValue\"],\"UserDisputed\":[\"CustomerServiceCaseInformation\"]},\"Schema\":null}}"
+			}
+		]
+	},
+	"github.com/bountylabs/service/channels/actions [github.com/bountylabs/service/channels/actions.test]": {
+		"pdtv2": [
+			{
+				"posn": "/Users/seongjunk/go/src/github.com/bountylabs/service/channels/actions/actions.go:105:2",
+				"message": "{\"Name\":\"github.com/bountylabs/service/channels/actions.ModerationChannelAction.dev-kinesis-metrics-consumer-KinesisStream-95A9K3Y2HW7T\",\"Role\":\"\",\"Team\":\"psvc\",\"Project\":\"psvc-default\",\"HasPersonalData\":\"YesPersonalData\",\"Env\":\"prod\",\"Annotations\":{\"FieldAnnotations\":{\"ActionTime\":[\"CustomerServiceAgentModeratorTimestamp\"],\"ActorDescription\":[\"Bio\"],\"ActorDisplayName\":[\"DisplayName\"],\"ActorUserId\":[\"UserId\"],\"ActorUsername\":[\"Username\"],\"BanReasonCode\":[\"PolicyViolation\"],\"BannedUserId\":[\"UserId\"],\"BotmakerDeviceId\":[\"DeviceId\"],\"BroadcastId\":[\"BroadcastId\"],\"ById\":[\"UserId\"],\"Cid\":[\"ChannelInfo\"],\"MemberId\":[\"UserId\"],\"Note\":[\"PolicyViolation\"],\"Type\":[\"AnnotationValue\"],\"UserDisputed\":[\"CustomerServiceCaseInformation\"]},\"Schema\":null}}"
+			},
+			{
+				"posn": "/Users/seongjunk/go/src/github.com/bountylabs/service/channels/actions/actions.go:105:2",
+				"message": "{\"Name\":\"github.com/bountylabs/service/channels/actions.ModerationChannelAction.prod-kinesis-metrics-consumer-KinesisStream-Z0W9ZACCBDAJ\",\"Role\":\"\",\"Team\":\"psvc\",\"Project\":\"psvc-default\",\"HasPersonalData\":\"YesPersonalData\",\"Env\":\"prod\",\"Annotations\":{\"FieldAnnotations\":{\"ActionTime\":[\"CustomerServiceAgentModeratorTimestamp\"],\"ActorDescription\":[\"Bio\"],\"ActorDisplayName\":[\"DisplayName\"],\"ActorUserId\":[\"UserId\"],\"ActorUsername\":[\"Username\"],\"BanReasonCode\":[\"PolicyViolation\"],\"BannedUserId\":[\"UserId\"],\"BotmakerDeviceId\":[\"DeviceId\"],\"BroadcastId\":[\"BroadcastId\"],\"ById\":[\"UserId\"],\"Cid\":[\"ChannelInfo\"],\"MemberId\":[\"UserId\"],\"Note\":[\"PolicyViolation\"],\"Type\":[\"AnnotationValue\"],\"UserDisputed\":[\"CustomerServiceCaseInformation\"]},\"Schema\":null}}"
+			},
+			{
+				"posn": "/Users/seongjunk/go/src/github.com/bountylabs/service/channels/actions/actions.go:108:13",
+				"message": "{\"Name\":\"github.com/bountylabs/service/channels/actions.ModerationChannelAction.kinesis-moderation-events-dev-Stream-458UCQA5YHQ6\",\"Role\":\"\",\"Team\":\"psvc\",\"Project\":\"psvc-default\",\"HasPersonalData\":\"YesPersonalData\",\"Env\":\"prod\",\"Annotations\":{\"FieldAnnotations\":{\"ActionTime\":[\"CustomerServiceAgentModeratorTimestamp\"],\"ActorDescription\":[\"Bio\"],\"ActorDisplayName\":[\"DisplayName\"],\"ActorUserId\":[\"UserId\"],\"ActorUsername\":[\"Username\"],\"BanReasonCode\":[\"PolicyViolation\"],\"BannedUserId\":[\"UserId\"],\"BotmakerDeviceId\":[\"DeviceId\"],\"BroadcastId\":[\"BroadcastId\"],\"ById\":[\"UserId\"],\"Cid\":[\"ChannelInfo\"],\"MemberId\":[\"UserId\"],\"Note\":[\"PolicyViolation\"],\"Type\":[\"AnnotationValue\"],\"UserDisputed\":[\"CustomerServiceCaseInformation\"]},\"Schema\":null}}"
+			},
+			{
+				"posn": "/Users/seongjunk/go/src/github.com/bountylabs/service/channels/actions/actions.go:108:13",
+				"message": "{\"Name\":\"github.com/bountylabs/service/channels/actions.ModerationChannelAction.kinesis-moderation-events-prod-Stream-1SFDI4Y1XX7AU\",\"Role\":\"\",\"Team\":\"psvc\",\"Project\":\"psvc-default\",\"HasPersonalData\":\"YesPersonalData\",\"Env\":\"prod\",\"Annotations\":{\"FieldAnnotations\":{\"ActionTime\":[\"CustomerServiceAgentModeratorTimestamp\"],\"ActorDescription\":[\"Bio\"],\"ActorDisplayName\":[\"DisplayName\"],\"ActorUserId\":[\"UserId\"],\"ActorUsername\":[\"Username\"],\"BanReasonCode\":[\"PolicyViolation\"],\"BannedUserId\":[\"UserId\"],\"BotmakerDeviceId\":[\"DeviceId\"],\"BroadcastId\":[\"BroadcastId\"],\"ById\":[\"UserId\"],\"Cid\":[\"ChannelInfo\"],\"MemberId\":[\"UserId\"],\"Note\":[\"PolicyViolation\"],\"Type\":[\"AnnotationValue\"],\"UserDisputed\":[\"CustomerServiceCaseInformation\"]},\"Schema\":null}}"
+			}
+		]
+	},
+	"github.com/bountylabs/service/channels/actions/actionsS": {
+		"pdtv2": [
+			{
+				"posn": "/Users/seongjunk/go/src/github.com/bountylabs/service/channels/actions/actionsS/actions.go:36:38",
+				"message": "{\"Name\":\"prod-channels-actions\",\"Role\":\"\",\"Team\":\"psvc\",\"Project\":\"psvc-default\",\"HasPersonalData\":\"YesPersonalData\",\"Env\":\"prod\",\"Annotations\":{\"FieldAnnotations\":{\"BanReasonCode\":[\"PolicyViolation\"],\"BannedUserID\":[\"UserId\"],\"BotmakerDeviceID\":[\"DeviceId\"],\"BroadcastId\":[\"BroadcastId\"],\"BroadcasterUserID\":[\"UserId\"],\"ById\":[\"UserId\"],\"CID\":[\"ChannelInfo\"],\"ChannelName\":[\"ChannelInfo\"],\"FrozenGroupReason\":[\"PolicyViolation\"],\"MemberId\":[\"UserId\"],\"Time\":[\"PrivateTimestamp\"]},\"Schema\":null}}"
+			},
+			{
+				"posn": "/Users/seongjunk/go/src/github.com/bountylabs/service/channels/actions/actionsS/actions.go:36:38",
+				"message": "{\"Name\":\"dev-channels-actions\",\"Role\":\"\",\"Team\":\"psvc\",\"Project\":\"psvc-default\",\"HasPersonalData\":\"YesPersonalData\",\"Env\":\"prod\",\"Annotations\":{\"FieldAnnotations\":{\"BanReasonCode\":[\"PolicyViolation\"],\"BannedUserID\":[\"UserId\"],\"BotmakerDeviceID\":[\"DeviceId\"],\"BroadcastId\":[\"BroadcastId\"],\"BroadcasterUserID\":[\"UserId\"],\"ById\":[\"UserId\"],\"CID\":[\"ChannelInfo\"],\"ChannelName\":[\"ChannelInfo\"],\"FrozenGroupReason\":[\"PolicyViolation\"],\"MemberId\":[\"UserId\"],\"Time\":[\"PrivateTimestamp\"]},\"Schema\":null}}"
+			}
+		]
+	},
+	"github.com/bountylabs/service/channels/broadcasts": {
+		"pdtv2": [
+			{
+				"posn": "/Users/seongjunk/go/src/github.com/bountylabs/service/channels/broadcasts/broadcasts.go:1199:4",
+				"message": "{\"Name\":\"github.com/bountylabs/service/channels/broadcasts.BroadcastChannels.dev-kinesis-metrics-consumer-KinesisStream-95A9K3Y2HW7T\",\"Role\":\"\",\"Team\":\"psvc\",\"Project\":\"psvc-default\",\"HasPersonalData\":\"YesPersonalData\",\"Env\":\"prod\",\"Annotations\":{\"FieldAnnotations\":{\"Bid\":[\"BroadcastId\"],\"Cid\":[\"ChannelInfo\"],\"NPrivate\":[\"ChannelInfo\"],\"Rel\":[\"ChannelInfo\"],\"Time\":[\"PublicTimestamp\"],\"User\":[\"UserId\"]},\"Schema\":null}}"
+			},
+			{
+				"posn": "/Users/seongjunk/go/src/github.com/bountylabs/service/channels/broadcasts/broadcasts.go:1199:4",
+				"message": "{\"Name\":\"github.com/bountylabs/service/channels/broadcasts.BroadcastChannels.prod-kinesis-metrics-consumer-KinesisStream-Z0W9ZACCBDAJ\",\"Role\":\"\",\"Team\":\"psvc\",\"Project\":\"psvc-default\",\"HasPersonalData\":\"YesPersonalData\",\"Env\":\"prod\",\"Annotations\":{\"FieldAnnotations\":{\"Bid\":[\"BroadcastId\"],\"Cid\":[\"ChannelInfo\"],\"NPrivate\":[\"ChannelInfo\"],\"Rel\":[\"ChannelInfo\"],\"Time\":[\"PublicTimestamp\"],\"User\":[\"UserId\"]},\"Schema\":null}}"
+			},
+			{
+				"posn": "/Users/seongjunk/go/src/github.com/bountylabs/service/channels/broadcasts/broadcasts.go:1207:3",
+				"message": "{\"Name\":\"github.com/bountylabs/service/channels/broadcasts.BroadcastChannels.dev-kinesis-metrics-consumer-KinesisStream-95A9K3Y2HW7T\",\"Role\":\"\",\"Team\":\"psvc\",\"Project\":\"psvc-default\",\"HasPersonalData\":\"YesPersonalData\",\"Env\":\"prod\",\"Annotations\":{\"FieldAnnotations\":{\"Bid\":[\"BroadcastId\"],\"Cid\":[\"ChannelInfo\"],\"NPrivate\":[\"ChannelInfo\"],\"Rel\":[\"ChannelInfo\"],\"Time\":[\"PublicTimestamp\"],\"User\":[\"UserId\"]},\"Schema\":null}}"
+			},
+			{
+				"posn": "/Users/seongjunk/go/src/github.com/bountylabs/service/channels/broadcasts/broadcasts.go:1207:3",
+				"message": "{\"Name\":\"github.com/bountylabs/service/channels/broadcasts.BroadcastChannels.prod-kinesis-metrics-consumer-KinesisStream-Z0W9ZACCBDAJ\",\"Role\":\"\",\"Team\":\"psvc\",\"Project\":\"psvc-default\",\"HasPersonalData\":\"YesPersonalData\",\"Env\":\"prod\",\"Annotations\":{\"FieldAnnotations\":{\"Bid\":[\"BroadcastId\"],\"Cid\":[\"ChannelInfo\"],\"NPrivate\":[\"ChannelInfo\"],\"Rel\":[\"ChannelInfo\"],\"Time\":[\"PublicTimestamp\"],\"User\":[\"UserId\"]},\"Schema\":null}}"
+			}
+		]
+	},
+	"github.com/bountylabs/service/channels/broadcasts [github.com/bountylabs/service/channels/broadcasts.test]": {
+		"pdtv2": [
+			{
+				"posn": "/Users/seongjunk/go/src/github.com/bountylabs/service/channels/broadcasts/broadcasts.go:1199:4",
+				"message": "{\"Name\":\"github.com/bountylabs/service/channels/broadcasts.BroadcastChannels.dev-kinesis-metrics-consumer-KinesisStream-95A9K3Y2HW7T\",\"Role\":\"\",\"Team\":\"psvc\",\"Project\":\"psvc-default\",\"HasPersonalData\":\"YesPersonalData\",\"Env\":\"prod\",\"Annotations\":{\"FieldAnnotations\":{\"Bid\":[\"BroadcastId\"],\"Cid\":[\"ChannelInfo\"],\"NPrivate\":[\"ChannelInfo\"],\"Rel\":[\"ChannelInfo\"],\"Time\":[\"PublicTimestamp\"],\"User\":[\"UserId\"]},\"Schema\":null}}"
+			},
+			{
+				"posn": "/Users/seongjunk/go/src/github.com/bountylabs/service/channels/broadcasts/broadcasts.go:1199:4",
+				"message": "{\"Name\":\"github.com/bountylabs/service/channels/broadcasts.BroadcastChannels.prod-kinesis-metrics-consumer-KinesisStream-Z0W9ZACCBDAJ\",\"Role\":\"\",\"Team\":\"psvc\",\"Project\":\"psvc-default\",\"HasPersonalData\":\"YesPersonalData\",\"Env\":\"prod\",\"Annotations\":{\"FieldAnnotations\":{\"Bid\":[\"BroadcastId\"],\"Cid\":[\"ChannelInfo\"],\"NPrivate\":[\"ChannelInfo\"],\"Rel\":[\"ChannelInfo\"],\"Time\":[\"PublicTimestamp\"],\"User\":[\"UserId\"]},\"Schema\":null}}"
+			},
+			{
+				"posn": "/Users/seongjunk/go/src/github.com/bountylabs/service/channels/broadcasts/broadcasts.go:1207:3",
+				"message": "{\"Name\":\"github.com/bountylabs/service/channels/broadcasts.BroadcastChannels.dev-kinesis-metrics-consumer-KinesisStream-95A9K3Y2HW7T\",\"Role\":\"\",\"Team\":\"psvc\",\"Project\":\"psvc-default\",\"HasPersonalData\":\"YesPersonalData\",\"Env\":\"prod\",\"Annotations\":{\"FieldAnnotations\":{\"Bid\":[\"BroadcastId\"],\"Cid\":[\"ChannelInfo\"],\"NPrivate\":[\"ChannelInfo\"],\"Rel\":[\"ChannelInfo\"],\"Time\":[\"PublicTimestamp\"],\"User\":[\"UserId\"]},\"Schema\":null}}"
+			},
+			{
+				"posn": "/Users/seongjunk/go/src/github.com/bountylabs/service/channels/broadcasts/broadcasts.go:1207:3",
+				"message": "{\"Name\":\"github.com/bountylabs/service/channels/broadcasts.BroadcastChannels.prod-kinesis-metrics-consumer-KinesisStream-Z0W9ZACCBDAJ\",\"Role\":\"\",\"Team\":\"psvc\",\"Project\":\"psvc-default\",\"HasPersonalData\":\"YesPersonalData\",\"Env\":\"prod\",\"Annotations\":{\"FieldAnnotations\":{\"Bid\":[\"BroadcastId\"],\"Cid\":[\"ChannelInfo\"],\"NPrivate\":[\"ChannelInfo\"],\"Rel\":[\"ChannelInfo\"],\"Time\":[\"PublicTimestamp\"],\"User\":[\"UserId\"]},\"Schema\":null}}"
+			}
+		]
+	},
+	"github.com/bountylabs/service/channels/broadcasts/broadcastsS": {
+		"pdtv2": [
+			{
+				"posn": "/Users/seongjunk/go/src/github.com/bountylabs/service/channels/broadcasts/broadcastsS/broadcasts.go:468:41",
+				"message": "{\"Name\":\"dev-channels-broadcasts\",\"Role\":\"\",\"Team\":\"psvc\",\"Project\":\"psvc-default\",\"HasPersonalData\":\"YesPersonalData\",\"Env\":\"prod\",\"Annotations\":{\"FieldAnnotations\":{\"\\\"bid\\\"\":[\"BroadcastId\"],\"\\\"cid\\\"\":[\"ChannelInfo\"],\"\\\"cid-locale\\\"\":[\"ChannelInfo\"],\"\\\"expiration\\\"\":[\"PrivateTimestamp\"],\"\\\"featured\\\"\":[\"PublicBroadcastAndMetadata\"],\"\\\"locale\\\"\":[\"UserAgent\"],\"\\\"score\\\"\":[\"SafetySignal\"],\"\\\"sharer\\\"\":[\"UserId\"],\"\\\"start\\\"\":[\"PrivateTimestamp\"],\"\\\"state\\\"\":[\"PublishedState\"],\"\\\"version\\\"\":[\"UserAgent\"]},\"Schema\":null}}"
+			},
+			{
+				"posn": "/Users/seongjunk/go/src/github.com/bountylabs/service/channels/broadcasts/broadcastsS/broadcasts.go:468:41",
+				"message": "{\"Name\":\"prod-channels-broadcasts\",\"Role\":\"\",\"Team\":\"psvc\",\"Project\":\"psvc-default\",\"HasPersonalData\":\"YesPersonalData\",\"Env\":\"prod\",\"Annotations\":{\"FieldAnnotations\":{\"\\\"bid\\\"\":[\"BroadcastId\"],\"\\\"cid\\\"\":[\"ChannelInfo\"],\"\\\"cid-locale\\\"\":[\"ChannelInfo\"],\"\\\"expiration\\\"\":[\"PrivateTimestamp\"],\"\\\"featured\\\"\":[\"PublicBroadcastAndMetadata\"],\"\\\"locale\\\"\":[\"UserAgent\"],\"\\\"score\\\"\":[\"SafetySignal\"],\"\\\"sharer\\\"\":[\"UserId\"],\"\\\"start\\\"\":[\"PrivateTimestamp\"],\"\\\"state\\\"\":[\"PublishedState\"],\"\\\"version\\\"\":[\"UserAgent\"]},\"Schema\":null}}"
+			},
+			{
+				"posn": "/Users/seongjunk/go/src/github.com/bountylabs/service/channels/broadcasts/broadcastsS/broadcasts.go:510:38",
+				"message": "{\"Name\":\"dev-channels-broadcasts\",\"Role\":\"\",\"Team\":\"psvc\",\"Project\":\"psvc-default\",\"HasPersonalData\":\"YesPersonalData\",\"Env\":\"prod\",\"Annotations\":{\"FieldAnnotations\":{\"\\\"score\\\"\":[\"SafetySignal\"],\"\\\"state\\\"\":[\"PublishedState\"]},\"Schema\":null}}"
+			},
+			{
+				"posn": "/Users/seongjunk/go/src/github.com/bountylabs/service/channels/broadcasts/broadcastsS/broadcasts.go:510:38",
+				"message": "{\"Name\":\"prod-channels-broadcasts\",\"Role\":\"\",\"Team\":\"psvc\",\"Project\":\"psvc-default\",\"HasPersonalData\":\"YesPersonalData\",\"Env\":\"prod\",\"Annotations\":{\"FieldAnnotations\":{\"\\\"score\\\"\":[\"SafetySignal\"],\"\\\"state\\\"\":[\"PublishedState\"]},\"Schema\":null}}"
+			}
+		]
+	},
+	"github.com/bountylabs/service/channels/broadcasts/broadcastsS [github.com/bountylabs/service/channels/broadcasts/broadcastsS.test]": {
+		"pdtv2": [
+			{
+				"posn": "/Users/seongjunk/go/src/github.com/bountylabs/service/channels/broadcasts/broadcastsS/broadcasts.go:468:41",
+				"message": "{\"Name\":\"dev-channels-broadcasts\",\"Role\":\"\",\"Team\":\"psvc\",\"Project\":\"psvc-default\",\"HasPersonalData\":\"YesPersonalData\",\"Env\":\"prod\",\"Annotations\":{\"FieldAnnotations\":{\"\\\"bid\\\"\":[\"BroadcastId\"],\"\\\"cid\\\"\":[\"ChannelInfo\"],\"\\\"cid-locale\\\"\":[\"ChannelInfo\"],\"\\\"expiration\\\"\":[\"PrivateTimestamp\"],\"\\\"featured\\\"\":[\"PublicBroadcastAndMetadata\"],\"\\\"locale\\\"\":[\"UserAgent\"],\"\\\"score\\\"\":[\"SafetySignal\"],\"\\\"sharer\\\"\":[\"UserId\"],\"\\\"start\\\"\":[\"PrivateTimestamp\"],\"\\\"state\\\"\":[\"PublishedState\"],\"\\\"version\\\"\":[\"UserAgent\"]},\"Schema\":null}}"
+			},
+			{
+				"posn": "/Users/seongjunk/go/src/github.com/bountylabs/service/channels/broadcasts/broadcastsS/broadcasts.go:468:41",
+				"message": "{\"Name\":\"prod-channels-broadcasts\",\"Role\":\"\",\"Team\":\"psvc\",\"Project\":\"psvc-default\",\"HasPersonalData\":\"YesPersonalData\",\"Env\":\"prod\",\"Annotations\":{\"FieldAnnotations\":{\"\\\"bid\\\"\":[\"BroadcastId\"],\"\\\"cid\\\"\":[\"ChannelInfo\"],\"\\\"cid-locale\\\"\":[\"ChannelInfo\"],\"\\\"expiration\\\"\":[\"PrivateTimestamp\"],\"\\\"featured\\\"\":[\"PublicBroadcastAndMetadata\"],\"\\\"locale\\\"\":[\"UserAgent\"],\"\\\"score\\\"\":[\"SafetySignal\"],\"\\\"sharer\\\"\":[\"UserId\"],\"\\\"start\\\"\":[\"PrivateTimestamp\"],\"\\\"state\\\"\":[\"PublishedState\"],\"\\\"version\\\"\":[\"UserAgent\"]},\"Schema\":null}}"
+			},
+			{
+				"posn": "/Users/seongjunk/go/src/github.com/bountylabs/service/channels/broadcasts/broadcastsS/broadcasts.go:510:38",
+				"message": "{\"Name\":\"dev-channels-broadcasts\",\"Role\":\"\",\"Team\":\"psvc\",\"Project\":\"psvc-default\",\"HasPersonalData\":\"YesPersonalData\",\"Env\":\"prod\",\"Annotations\":{\"FieldAnnotations\":{\"\\\"score\\\"\":[\"SafetySignal\"],\"\\\"state\\\"\":[\"PublishedState\"]},\"Schema\":null}}"
+			},
+			{
+				"posn": "/Users/seongjunk/go/src/github.com/bountylabs/service/channels/broadcasts/broadcastsS/broadcasts.go:510:38",
+				"message": "{\"Name\":\"prod-channels-broadcasts\",\"Role\":\"\",\"Team\":\"psvc\",\"Project\":\"psvc-default\",\"HasPersonalData\":\"YesPersonalData\",\"Env\":\"prod\",\"Annotations\":{\"FieldAnnotations\":{\"\\\"score\\\"\":[\"SafetySignal\"],\"\\\"state\\\"\":[\"PublishedState\"]},\"Schema\":null}}"
+			}
+		]
+	},
+	"github.com/bountylabs/service/channels/channels": {
+		"pdtv2": [
+			{
+				"posn": "/Users/seongjunk/go/src/github.com/bountylabs/service/channels/channels/channels.go:781:17",
+				"message": "{\"Name\":\"github.com/bountylabs/service/channels/channels.ModerationFrozenGroupMemberAction.dev-kinesis-metrics-consumer-KinesisStream-95A9K3Y2HW7T\",\"Role\":\"\",\"Team\":\"psvc\",\"Project\":\"psvc-default\",\"HasPersonalData\":\"YesPersonalData\",\"Env\":\"prod\",\"Annotations\":{\"FieldAnnotations\":{\"ActionTime\":[\"PrivateTimestamp\"],\"ActionType\":[\"CustomerServiceAgentAndModeratorActions\"],\"Actor\":[\"EmployeeFullName\"],\"ChannelId\":[\"ChannelInfo\"],\"MemberBanReasonCode\":[\"PolicyViolation\"],\"MemberBanReasonText\":[\"PolicyViolation\"],\"MemberCanWriteChannel\":[\"ChannelInfo\"],\"MemberIsBanned\":[\"PolicyViolation\"],\"MemberJoinedAt\":[\"PrivateTimestamp\"],\"MemberUserId\":[\"UserId\"],\"Reason\":[\"PolicyViolation\"],\"Time\":[\"CustomerServiceAgentModeratorTimestamp\"],\"User\":[\"UserId\"]},\"Schema\":null}}"
+			},
+			{
+				"posn": "/Users/seongjunk/go/src/github.com/bountylabs/service/channels/channels/channels.go:781:17",
+				"message": "{\"Name\":\"github.com/bountylabs/service/channels/channels.ModerationFrozenGroupMemberAction.prod-kinesis-metrics-consumer-KinesisStream-Z0W9ZACCBDAJ\",\"Role\":\"\",\"Team\":\"psvc\",\"Project\":\"psvc-default\",\"HasPersonalData\":\"YesPersonalData\",\"Env\":\"prod\",\"Annotations\":{\"FieldAnnotations\":{\"ActionTime\":[\"PrivateTimestamp\"],\"ActionType\":[\"CustomerServiceAgentAndModeratorActions\"],\"Actor\":[\"EmployeeFullName\"],\"ChannelId\":[\"ChannelInfo\"],\"MemberBanReasonCode\":[\"PolicyViolation\"],\"MemberBanReasonText\":[\"PolicyViolation\"],\"MemberCanWriteChannel\":[\"ChannelInfo\"],\"MemberIsBanned\":[\"PolicyViolation\"],\"MemberJoinedAt\":[\"PrivateTimestamp\"],\"MemberUserId\":[\"UserId\"],\"Reason\":[\"PolicyViolation\"],\"Time\":[\"CustomerServiceAgentModeratorTimestamp\"],\"User\":[\"UserId\"]},\"Schema\":null}}"
+			},
+			{
+				"posn": "/Users/seongjunk/go/src/github.com/bountylabs/service/channels/channels/channels.go:1086:2",
+				"message": "{\"Name\":\"github.com/bountylabs/service/channels/channels.ChannelCreate.dev-kinesis-metrics-consumer-KinesisStream-95A9K3Y2HW7T\",\"Role\":\"\",\"Team\":\"psvc\",\"Project\":\"psvc-default\",\"HasPersonalData\":\"YesPersonalData\",\"Env\":\"prod\",\"Annotations\":{\"FieldAnnotations\":{\"Cid\":[\"ChannelInfo\"],\"Description\":[\"ChannelInfo\"],\"Name\":[\"ChannelInfo\"],\"OwnerDescription\":[\"Bio\"],\"OwnerFollowersNum\":[\"CountOfFollowersAndFollowees\"],\"OwnerFollowingNum\":[\"CountOfFollowersAndFollowees\"],\"OwnerTwitterId\":[\"UserId\"],\"OwnerUserId\":[\"UserId\"],\"OwnerUsername\":[\"Username\"],\"Time\":[\"PrivateTimestamp\"],\"Type\":[\"ChannelInfo\"],\"User\":[\"UserId\"]},\"Schema\":null}}"
+			},
+			{
+				"posn": "/Users/seongjunk/go/src/github.com/bountylabs/service/channels/channels/channels.go:1086:2",
+				"message": "{\"Name\":\"github.com/bountylabs/service/channels/channels.ChannelCreate.prod-kinesis-metrics-consumer-KinesisStream-Z0W9ZACCBDAJ\",\"Role\":\"\",\"Team\":\"psvc\",\"Project\":\"psvc-default\",\"HasPersonalData\":\"YesPersonalData\",\"Env\":\"prod\",\"Annotations\":{\"FieldAnnotations\":{\"Cid\":[\"ChannelInfo\"],\"Description\":[\"ChannelInfo\"],\"Name\":[\"ChannelInfo\"],\"OwnerDescription\":[\"Bio\"],\"OwnerFollowersNum\":[\"CountOfFollowersAndFollowees\"],\"OwnerFollowingNum\":[\"CountOfFollowersAndFollowees\"],\"OwnerTwitterId\":[\"UserId\"],\"OwnerUserId\":[\"UserId\"],\"OwnerUsername\":[\"Username\"],\"Time\":[\"PrivateTimestamp\"],\"Type\":[\"ChannelInfo\"],\"User\":[\"UserId\"]},\"Schema\":null}}"
+			},
+			{
+				"posn": "/Users/seongjunk/go/src/github.com/bountylabs/service/channels/channels/channels.go:1141:9",
+				"message": "{\"Name\":\"github.com/bountylabs/service/channels/channels.Search.dev-kinesis-metrics-consumer-KinesisStream-95A9K3Y2HW7T\",\"Role\":\"\",\"Team\":\"psvc\",\"Project\":\"psvc-default\",\"HasPersonalData\":\"YesPersonalData\",\"Env\":\"prod\",\"Annotations\":{\"FieldAnnotations\":{\"Ch0Cid\":[\"ChannelInfo\"],\"Ch0Name\":[\"ChannelInfo\"],\"Ch0Type\":[\"ChannelInfo\"],\"Locale\":[\"UserAgent\"],\"Query\":[\"SearchQuery\"],\"User\":[\"UserId\"]},\"Schema\":null}}"
+			},
+			{
+				"posn": "/Users/seongjunk/go/src/github.com/bountylabs/service/channels/channels/channels.go:1141:9",
+				"message": "{\"Name\":\"github.com/bountylabs/service/channels/channels.Search.prod-kinesis-metrics-consumer-KinesisStream-Z0W9ZACCBDAJ\",\"Role\":\"\",\"Team\":\"psvc\",\"Project\":\"psvc-default\",\"HasPersonalData\":\"YesPersonalData\",\"Env\":\"prod\",\"Annotations\":{\"FieldAnnotations\":{\"Ch0Cid\":[\"ChannelInfo\"],\"Ch0Name\":[\"ChannelInfo\"],\"Ch0Type\":[\"ChannelInfo\"],\"Locale\":[\"UserAgent\"],\"Query\":[\"SearchQuery\"],\"User\":[\"UserId\"]},\"Schema\":null}}"
+			},
+			{
+				"category": "notice",
+				"posn": "/Users/seongjunk/go/src/github.com/bountylabs/service/channels/channels/thumbnails.go:172:44",
+				"message": "DynamoDB write complete for buckets dev-periscope-profile, prod-periscope-profile"
+			}
+		]
+	},
+	"github.com/bountylabs/service/channels/channels [github.com/bountylabs/service/channels/channels.test]": {
+		"pdtv2": [
+			{
+				"posn": "/Users/seongjunk/go/src/github.com/bountylabs/service/channels/channels/channels.go:781:17",
+				"message": "{\"Name\":\"github.com/bountylabs/service/channels/channels.ModerationFrozenGroupMemberAction.dev-kinesis-metrics-consumer-KinesisStream-95A9K3Y2HW7T\",\"Role\":\"\",\"Team\":\"psvc\",\"Project\":\"psvc-default\",\"HasPersonalData\":\"YesPersonalData\",\"Env\":\"prod\",\"Annotations\":{\"FieldAnnotations\":{\"ActionTime\":[\"PrivateTimestamp\"],\"ActionType\":[\"CustomerServiceAgentAndModeratorActions\"],\"Actor\":[\"EmployeeFullName\"],\"ChannelId\":[\"ChannelInfo\"],\"MemberBanReasonCode\":[\"PolicyViolation\"],\"MemberBanReasonText\":[\"PolicyViolation\"],\"MemberCanWriteChannel\":[\"ChannelInfo\"],\"MemberIsBanned\":[\"PolicyViolation\"],\"MemberJoinedAt\":[\"PrivateTimestamp\"],\"MemberUserId\":[\"UserId\"],\"Reason\":[\"PolicyViolation\"],\"Time\":[\"CustomerServiceAgentModeratorTimestamp\"],\"User\":[\"UserId\"]},\"Schema\":null}}"
+			},
+			{
+				"posn": "/Users/seongjunk/go/src/github.com/bountylabs/service/channels/channels/channels.go:781:17",
+				"message": "{\"Name\":\"github.com/bountylabs/service/channels/channels.ModerationFrozenGroupMemberAction.prod-kinesis-metrics-consumer-KinesisStream-Z0W9ZACCBDAJ\",\"Role\":\"\",\"Team\":\"psvc\",\"Project\":\"psvc-default\",\"HasPersonalData\":\"YesPersonalData\",\"Env\":\"prod\",\"Annotations\":{\"FieldAnnotations\":{\"ActionTime\":[\"PrivateTimestamp\"],\"ActionType\":[\"CustomerServiceAgentAndModeratorActions\"],\"Actor\":[\"EmployeeFullName\"],\"ChannelId\":[\"ChannelInfo\"],\"MemberBanReasonCode\":[\"PolicyViolation\"],\"MemberBanReasonText\":[\"PolicyViolation\"],\"MemberCanWriteChannel\":[\"ChannelInfo\"],\"MemberIsBanned\":[\"PolicyViolation\"],\"MemberJoinedAt\":[\"PrivateTimestamp\"],\"MemberUserId\":[\"UserId\"],\"Reason\":[\"PolicyViolation\"],\"Time\":[\"CustomerServiceAgentModeratorTimestamp\"],\"User\":[\"UserId\"]},\"Schema\":null}}"
+			},
+			{
+				"posn": "/Users/seongjunk/go/src/github.com/bountylabs/service/channels/channels/channels.go:1086:2",
+				"message": "{\"Name\":\"github.com/bountylabs/service/channels/channels.ChannelCreate.dev-kinesis-metrics-consumer-KinesisStream-95A9K3Y2HW7T\",\"Role\":\"\",\"Team\":\"psvc\",\"Project\":\"psvc-default\",\"HasPersonalData\":\"YesPersonalData\",\"Env\":\"prod\",\"Annotations\":{\"FieldAnnotations\":{\"Cid\":[\"ChannelInfo\"],\"Description\":[\"ChannelInfo\"],\"Name\":[\"ChannelInfo\"],\"OwnerDescription\":[\"Bio\"],\"OwnerFollowersNum\":[\"CountOfFollowersAndFollowees\"],\"OwnerFollowingNum\":[\"CountOfFollowersAndFollowees\"],\"OwnerTwitterId\":[\"UserId\"],\"OwnerUserId\":[\"UserId\"],\"OwnerUsername\":[\"Username\"],\"Time\":[\"PrivateTimestamp\"],\"Type\":[\"ChannelInfo\"],\"User\":[\"UserId\"]},\"Schema\":null}}"
+			},
+			{
+				"posn": "/Users/seongjunk/go/src/github.com/bountylabs/service/channels/channels/channels.go:1086:2",
+				"message": "{\"Name\":\"github.com/bountylabs/service/channels/channels.ChannelCreate.prod-kinesis-metrics-consumer-KinesisStream-Z0W9ZACCBDAJ\",\"Role\":\"\",\"Team\":\"psvc\",\"Project\":\"psvc-default\",\"HasPersonalData\":\"YesPersonalData\",\"Env\":\"prod\",\"Annotations\":{\"FieldAnnotations\":{\"Cid\":[\"ChannelInfo\"],\"Description\":[\"ChannelInfo\"],\"Name\":[\"ChannelInfo\"],\"OwnerDescription\":[\"Bio\"],\"OwnerFollowersNum\":[\"CountOfFollowersAndFollowees\"],\"OwnerFollowingNum\":[\"CountOfFollowersAndFollowees\"],\"OwnerTwitterId\":[\"UserId\"],\"OwnerUserId\":[\"UserId\"],\"OwnerUsername\":[\"Username\"],\"Time\":[\"PrivateTimestamp\"],\"Type\":[\"ChannelInfo\"],\"User\":[\"UserId\"]},\"Schema\":null}}"
+			},
+			{
+				"posn": "/Users/seongjunk/go/src/github.com/bountylabs/service/channels/channels/channels.go:1141:9",
+				"message": "{\"Name\":\"github.com/bountylabs/service/channels/channels.Search.dev-kinesis-metrics-consumer-KinesisStream-95A9K3Y2HW7T\",\"Role\":\"\",\"Team\":\"psvc\",\"Project\":\"psvc-default\",\"HasPersonalData\":\"YesPersonalData\",\"Env\":\"prod\",\"Annotations\":{\"FieldAnnotations\":{\"Ch0Cid\":[\"ChannelInfo\"],\"Ch0Name\":[\"ChannelInfo\"],\"Ch0Type\":[\"ChannelInfo\"],\"Locale\":[\"UserAgent\"],\"Query\":[\"SearchQuery\"],\"User\":[\"UserId\"]},\"Schema\":null}}"
+			},
+			{
+				"posn": "/Users/seongjunk/go/src/github.com/bountylabs/service/channels/channels/channels.go:1141:9",
+				"message": "{\"Name\":\"github.com/bountylabs/service/channels/channels.Search.prod-kinesis-metrics-consumer-KinesisStream-Z0W9ZACCBDAJ\",\"Role\":\"\",\"Team\":\"psvc\",\"Project\":\"psvc-default\",\"HasPersonalData\":\"YesPersonalData\",\"Env\":\"prod\",\"Annotations\":{\"FieldAnnotations\":{\"Ch0Cid\":[\"ChannelInfo\"],\"Ch0Name\":[\"ChannelInfo\"],\"Ch0Type\":[\"ChannelInfo\"],\"Locale\":[\"UserAgent\"],\"Query\":[\"SearchQuery\"],\"User\":[\"UserId\"]},\"Schema\":null}}"
+			},
+			{
+				"category": "notice",
+				"posn": "/Users/seongjunk/go/src/github.com/bountylabs/service/channels/channels/thumbnails.go:172:44",
+				"message": "DynamoDB write complete for buckets dev-periscope-profile, prod-periscope-profile"
+			}
+		]
+	},
+	"github.com/bountylabs/service/channels/channels/channelsS": {
+		"pdtv2": [
+			{
+				"posn": "/Users/seongjunk/go/src/github.com/bountylabs/service/channels/channels/channelsS/channels.go:308:44",
+				"message": "{\"Name\":\"dev-channels\",\"Role\":\"\",\"Team\":\"psvc\",\"Project\":\"psvc-default\",\"HasPersonalData\":\"YesPersonalData\",\"Env\":\"prod\",\"Annotations\":{\"FieldAnnotations\":{\"BroadcastFilters\":[\"ChannelInfo\"],\"CID\":[\"ChannelInfo\"],\"CreatedAt\":[\"PublicTimestamp\",\"PrivateTimestamp\"],\"DescLocalization\":[\"ChannelInfo\"],\"Description\":[\"ChannelInfo\"],\"Featured\":[\"ChannelInfo\"],\"FrozenAt\":[\"CustomerServiceAgentModeratorTimestamp\"],\"LastActivity\":[\"PublicTimestamp\",\"PrivateTimestamp\"],\"Localization\":[\"ChannelInfo\"],\"NLive\":[\"ChannelInfo\"],\"NMember\":[\"ChannelInfo\"],\"NReplay\":[\"ChannelInfo\"],\"Name\":[\"ChannelInfo\"],\"NoLanguageDistinction\":[\"ChannelInfo\"],\"OwnerId\":[\"UserId\"],\"PublicTag\":[\"ChannelInfo\"],\"RestrictMembersManagement\":[\"ChannelInfo\"],\"Slug\":[\"ChannelInfo\"],\"ThumbnailURLs\":[\"ChannelInfo\"],\"Type\":[\"ChannelInfo\"],\"UTTPathsFromRoot\":[\"ChannelInfo\"],\"UniversalLocales\":[\"ChannelInfo\"]},\"Schema\":null}}"
+			},
+			{
+				"posn": "/Users/seongjunk/go/src/github.com/bountylabs/service/channels/channels/channelsS/channels.go:308:44",
+				"message": "{\"Name\":\"prod-channels\",\"Role\":\"\",\"Team\":\"psvc\",\"Project\":\"psvc-default\",\"HasPersonalData\":\"YesPersonalData\",\"Env\":\"prod\",\"Annotations\":{\"FieldAnnotations\":{\"BroadcastFilters\":[\"ChannelInfo\"],\"CID\":[\"ChannelInfo\"],\"CreatedAt\":[\"PublicTimestamp\",\"PrivateTimestamp\"],\"DescLocalization\":[\"ChannelInfo\"],\"Description\":[\"ChannelInfo\"],\"Featured\":[\"ChannelInfo\"],\"FrozenAt\":[\"CustomerServiceAgentModeratorTimestamp\"],\"LastActivity\":[\"PublicTimestamp\",\"PrivateTimestamp\"],\"Localization\":[\"ChannelInfo\"],\"NLive\":[\"ChannelInfo\"],\"NMember\":[\"ChannelInfo\"],\"NReplay\":[\"ChannelInfo\"],\"Name\":[\"ChannelInfo\"],\"NoLanguageDistinction\":[\"ChannelInfo\"],\"OwnerId\":[\"UserId\"],\"PublicTag\":[\"ChannelInfo\"],\"RestrictMembersManagement\":[\"ChannelInfo\"],\"Slug\":[\"ChannelInfo\"],\"ThumbnailURLs\":[\"ChannelInfo\"],\"Type\":[\"ChannelInfo\"],\"UTTPathsFromRoot\":[\"ChannelInfo\"],\"UniversalLocales\":[\"ChannelInfo\"]},\"Schema\":null}}"
+			},
+			{
+				"posn": "/Users/seongjunk/go/src/github.com/bountylabs/service/channels/channels/channelsS/channels.go:198:12",
+				"message": "{\"Name\":\"dev-channels\",\"Role\":\"\",\"Team\":\"psvc\",\"Project\":\"psvc-default\",\"HasPersonalData\":\"YesPersonalData\",\"Env\":\"prod\",\"Annotations\":{\"FieldAnnotations\":{\"BroadcastFilters\":[\"ChannelInfo\"],\"CID\":[\"ChannelInfo\"],\"CreatedAt\":[\"PublicTimestamp\",\"PrivateTimestamp\"],\"DescLocalization\":[\"ChannelInfo\"],\"Description\":[\"ChannelInfo\"],\"Featured\":[\"ChannelInfo\"],\"FrozenAt\":[\"CustomerServiceAgentModeratorTimestamp\"],\"LastActivity\":[\"PublicTimestamp\",\"PrivateTimestamp\"],\"Localization\":[\"ChannelInfo\"],\"NLive\":[\"ChannelInfo\"],\"NMember\":[\"ChannelInfo\"],\"NReplay\":[\"ChannelInfo\"],\"Name\":[\"ChannelInfo\"],\"NoLanguageDistinction\":[\"ChannelInfo\"],\"OwnerId\":[\"UserId\"],\"PublicTag\":[\"ChannelInfo\"],\"RestrictMembersManagement\":[\"ChannelInfo\"],\"Slug\":[\"ChannelInfo\"],\"ThumbnailURLs\":[\"ChannelInfo\"],\"Type\":[\"ChannelInfo\"],\"UTTPathsFromRoot\":[\"ChannelInfo\"],\"UniversalLocales\":[\"ChannelInfo\"]},\"Schema\":null}}"
+			},
+			{
+				"posn": "/Users/seongjunk/go/src/github.com/bountylabs/service/channels/channels/channelsS/channels.go:198:12",
+				"message": "{\"Name\":\"prod-channels\",\"Role\":\"\",\"Team\":\"psvc\",\"Project\":\"psvc-default\",\"HasPersonalData\":\"YesPersonalData\",\"Env\":\"prod\",\"Annotations\":{\"FieldAnnotations\":{\"BroadcastFilters\":[\"ChannelInfo\"],\"CID\":[\"ChannelInfo\"],\"CreatedAt\":[\"PublicTimestamp\",\"PrivateTimestamp\"],\"DescLocalization\":[\"ChannelInfo\"],\"Description\":[\"ChannelInfo\"],\"Featured\":[\"ChannelInfo\"],\"FrozenAt\":[\"CustomerServiceAgentModeratorTimestamp\"],\"LastActivity\":[\"PublicTimestamp\",\"PrivateTimestamp\"],\"Localization\":[\"ChannelInfo\"],\"NLive\":[\"ChannelInfo\"],\"NMember\":[\"ChannelInfo\"],\"NReplay\":[\"ChannelInfo\"],\"Name\":[\"ChannelInfo\"],\"NoLanguageDistinction\":[\"ChannelInfo\"],\"OwnerId\":[\"UserId\"],\"PublicTag\":[\"ChannelInfo\"],\"RestrictMembersManagement\":[\"ChannelInfo\"],\"Slug\":[\"ChannelInfo\"],\"ThumbnailURLs\":[\"ChannelInfo\"],\"Type\":[\"ChannelInfo\"],\"UTTPathsFromRoot\":[\"ChannelInfo\"],\"UniversalLocales\":[\"ChannelInfo\"]},\"Schema\":null}}"
+			}
+		]
+	},
+	"github.com/bountylabs/service/channels/channels/channelsS [github.com/bountylabs/service/channels/channels/channelsS.test]": {
+		"pdtv2": [
+			{
+				"posn": "/Users/seongjunk/go/src/github.com/bountylabs/service/channels/channels/channelsS/channels.go:198:12",
+				"message": "{\"Name\":\"prod-channels\",\"Role\":\"\",\"Team\":\"psvc\",\"Project\":\"psvc-default\",\"HasPersonalData\":\"YesPersonalData\",\"Env\":\"prod\",\"Annotations\":{\"FieldAnnotations\":{\"BroadcastFilters\":[\"ChannelInfo\"],\"CID\":[\"ChannelInfo\"],\"CreatedAt\":[\"PublicTimestamp\",\"PrivateTimestamp\"],\"DescLocalization\":[\"ChannelInfo\"],\"Description\":[\"ChannelInfo\"],\"Featured\":[\"ChannelInfo\"],\"FrozenAt\":[\"CustomerServiceAgentModeratorTimestamp\"],\"LastActivity\":[\"PublicTimestamp\",\"PrivateTimestamp\"],\"Localization\":[\"ChannelInfo\"],\"NLive\":[\"ChannelInfo\"],\"NMember\":[\"ChannelInfo\"],\"NReplay\":[\"ChannelInfo\"],\"Name\":[\"ChannelInfo\"],\"NoLanguageDistinction\":[\"ChannelInfo\"],\"OwnerId\":[\"UserId\"],\"PublicTag\":[\"ChannelInfo\"],\"RestrictMembersManagement\":[\"ChannelInfo\"],\"Slug\":[\"ChannelInfo\"],\"ThumbnailURLs\":[\"ChannelInfo\"],\"Type\":[\"ChannelInfo\"],\"UTTPathsFromRoot\":[\"ChannelInfo\"],\"UniversalLocales\":[\"ChannelInfo\"]},\"Schema\":null}}"
+			},
+			{
+				"posn": "/Users/seongjunk/go/src/github.com/bountylabs/service/channels/channels/channelsS/channels.go:198:12",
+				"message": "{\"Name\":\"dev-channels\",\"Role\":\"\",\"Team\":\"psvc\",\"Project\":\"psvc-default\",\"HasPersonalData\":\"YesPersonalData\",\"Env\":\"prod\",\"Annotations\":{\"FieldAnnotations\":{\"BroadcastFilters\":[\"ChannelInfo\"],\"CID\":[\"ChannelInfo\"],\"CreatedAt\":[\"PublicTimestamp\",\"PrivateTimestamp\"],\"DescLocalization\":[\"ChannelInfo\"],\"Description\":[\"ChannelInfo\"],\"Featured\":[\"ChannelInfo\"],\"FrozenAt\":[\"CustomerServiceAgentModeratorTimestamp\"],\"LastActivity\":[\"PublicTimestamp\",\"PrivateTimestamp\"],\"Localization\":[\"ChannelInfo\"],\"NLive\":[\"ChannelInfo\"],\"NMember\":[\"ChannelInfo\"],\"NReplay\":[\"ChannelInfo\"],\"Name\":[\"ChannelInfo\"],\"NoLanguageDistinction\":[\"ChannelInfo\"],\"OwnerId\":[\"UserId\"],\"PublicTag\":[\"ChannelInfo\"],\"RestrictMembersManagement\":[\"ChannelInfo\"],\"Slug\":[\"ChannelInfo\"],\"ThumbnailURLs\":[\"ChannelInfo\"],\"Type\":[\"ChannelInfo\"],\"UTTPathsFromRoot\":[\"ChannelInfo\"],\"UniversalLocales\":[\"ChannelInfo\"]},\"Schema\":null}}"
+			},
+			{
+				"posn": "/Users/seongjunk/go/src/github.com/bountylabs/service/channels/channels/channelsS/channels.go:308:44",
+				"message": "{\"Name\":\"prod-channels\",\"Role\":\"\",\"Team\":\"psvc\",\"Project\":\"psvc-default\",\"HasPersonalData\":\"YesPersonalData\",\"Env\":\"prod\",\"Annotations\":{\"FieldAnnotations\":{\"BroadcastFilters\":[\"ChannelInfo\"],\"CID\":[\"ChannelInfo\"],\"CreatedAt\":[\"PublicTimestamp\",\"PrivateTimestamp\"],\"DescLocalization\":[\"ChannelInfo\"],\"Description\":[\"ChannelInfo\"],\"Featured\":[\"ChannelInfo\"],\"FrozenAt\":[\"CustomerServiceAgentModeratorTimestamp\"],\"LastActivity\":[\"PublicTimestamp\",\"PrivateTimestamp\"],\"Localization\":[\"ChannelInfo\"],\"NLive\":[\"ChannelInfo\"],\"NMember\":[\"ChannelInfo\"],\"NReplay\":[\"ChannelInfo\"],\"Name\":[\"ChannelInfo\"],\"NoLanguageDistinction\":[\"ChannelInfo\"],\"OwnerId\":[\"UserId\"],\"PublicTag\":[\"ChannelInfo\"],\"RestrictMembersManagement\":[\"ChannelInfo\"],\"Slug\":[\"ChannelInfo\"],\"ThumbnailURLs\":[\"ChannelInfo\"],\"Type\":[\"ChannelInfo\"],\"UTTPathsFromRoot\":[\"ChannelInfo\"],\"UniversalLocales\":[\"ChannelInfo\"]},\"Schema\":null}}"
+			},
+			{
+				"posn": "/Users/seongjunk/go/src/github.com/bountylabs/service/channels/channels/channelsS/channels.go:308:44",
+				"message": "{\"Name\":\"dev-channels\",\"Role\":\"\",\"Team\":\"psvc\",\"Project\":\"psvc-default\",\"HasPersonalData\":\"YesPersonalData\",\"Env\":\"prod\",\"Annotations\":{\"FieldAnnotations\":{\"BroadcastFilters\":[\"ChannelInfo\"],\"CID\":[\"ChannelInfo\"],\"CreatedAt\":[\"PublicTimestamp\",\"PrivateTimestamp\"],\"DescLocalization\":[\"ChannelInfo\"],\"Description\":[\"ChannelInfo\"],\"Featured\":[\"ChannelInfo\"],\"FrozenAt\":[\"CustomerServiceAgentModeratorTimestamp\"],\"LastActivity\":[\"PublicTimestamp\",\"PrivateTimestamp\"],\"Localization\":[\"ChannelInfo\"],\"NLive\":[\"ChannelInfo\"],\"NMember\":[\"ChannelInfo\"],\"NReplay\":[\"ChannelInfo\"],\"Name\":[\"ChannelInfo\"],\"NoLanguageDistinction\":[\"ChannelInfo\"],\"OwnerId\":[\"UserId\"],\"PublicTag\":[\"ChannelInfo\"],\"RestrictMembersManagement\":[\"ChannelInfo\"],\"Slug\":[\"ChannelInfo\"],\"ThumbnailURLs\":[\"ChannelInfo\"],\"Type\":[\"ChannelInfo\"],\"UTTPathsFromRoot\":[\"ChannelInfo\"],\"UniversalLocales\":[\"ChannelInfo\"]},\"Schema\":null}}"
+			}
+		]
+	},
+	"github.com/bountylabs/service/channels/editor/editorS": {
+		"pdtv2": [
+			{
+				"posn": "/Users/seongjunk/go/src/github.com/bountylabs/service/channels/editor/editorS/editor.go:59:37",
+				"message": "{\"Name\":\"dev-channels-editor\",\"Role\":\"\",\"Team\":\"psvc\",\"Project\":\"psvc-default\",\"HasPersonalData\":\"YesPersonalData\",\"Env\":\"prod\",\"Annotations\":{\"FieldAnnotations\":{\"CID\":[\"ChannelInfo\"],\"Countries\":[\"ChannelInfo\"],\"Languages\":[\"ChannelInfo\"],\"Locations\":[\"ChannelInfo\"],\"Platforms\":[\"ChannelInfo\"],\"Score\":[\"ChannelInfo\"],\"States\":[\"ChannelInfo\"]},\"Schema\":null}}"
+			},
+			{
+				"posn": "/Users/seongjunk/go/src/github.com/bountylabs/service/channels/editor/editorS/editor.go:59:37",
+				"message": "{\"Name\":\"prod-channels-editor\",\"Role\":\"\",\"Team\":\"psvc\",\"Project\":\"psvc-default\",\"HasPersonalData\":\"YesPersonalData\",\"Env\":\"prod\",\"Annotations\":{\"FieldAnnotations\":{\"CID\":[\"ChannelInfo\"],\"Countries\":[\"ChannelInfo\"],\"Languages\":[\"ChannelInfo\"],\"Locations\":[\"ChannelInfo\"],\"Platforms\":[\"ChannelInfo\"],\"Score\":[\"ChannelInfo\"],\"States\":[\"ChannelInfo\"]},\"Schema\":null}}"
+			}
+		]
+	},
+	"github.com/bountylabs/service/channels/editor/editorS [github.com/bountylabs/service/channels/editor/editorS.test]": {
+		"pdtv2": [
+			{
+				"posn": "/Users/seongjunk/go/src/github.com/bountylabs/service/channels/editor/editorS/editor.go:59:37",
+				"message": "{\"Name\":\"dev-channels-editor\",\"Role\":\"\",\"Team\":\"psvc\",\"Project\":\"psvc-default\",\"HasPersonalData\":\"YesPersonalData\",\"Env\":\"prod\",\"Annotations\":{\"FieldAnnotations\":{\"CID\":[\"ChannelInfo\"],\"Countries\":[\"ChannelInfo\"],\"Languages\":[\"ChannelInfo\"],\"Locations\":[\"ChannelInfo\"],\"Platforms\":[\"ChannelInfo\"],\"Score\":[\"ChannelInfo\"],\"States\":[\"ChannelInfo\"]},\"Schema\":null}}"
+			},
+			{
+				"posn": "/Users/seongjunk/go/src/github.com/bountylabs/service/channels/editor/editorS/editor.go:59:37",
+				"message": "{\"Name\":\"prod-channels-editor\",\"Role\":\"\",\"Team\":\"psvc\",\"Project\":\"psvc-default\",\"HasPersonalData\":\"YesPersonalData\",\"Env\":\"prod\",\"Annotations\":{\"FieldAnnotations\":{\"CID\":[\"ChannelInfo\"],\"Countries\":[\"ChannelInfo\"],\"Languages\":[\"ChannelInfo\"],\"Locations\":[\"ChannelInfo\"],\"Platforms\":[\"ChannelInfo\"],\"Score\":[\"ChannelInfo\"],\"States\":[\"ChannelInfo\"]},\"Schema\":null}}"
+			}
+		]
+	},
+	"github.com/bountylabs/service/channels/geo/geoS": {
+		"pdtv2": [
+			{
+				"posn": "/Users/seongjunk/go/src/github.com/bountylabs/service/channels/geo/geoS/geo.go:150:34",
+				"message": "{\"Name\":\"dev-channels-geo\",\"Role\":\"\",\"Team\":\"psvc\",\"Project\":\"psvc-default\",\"HasPersonalData\":\"YesPersonalData\",\"Env\":\"prod\",\"Annotations\":{\"FieldAnnotations\":{\"CID\":[\"ChannelInfo\"],\"ID\":[\"ChannelInfo\"],\"Latitude\":[\"PublishedCountry\"],\"Longitude\":[\"PublishedCountry\"]},\"Schema\":null}}"
+			},
+			{
+				"posn": "/Users/seongjunk/go/src/github.com/bountylabs/service/channels/geo/geoS/geo.go:150:34",
+				"message": "{\"Name\":\"prod-channels-geo\",\"Role\":\"\",\"Team\":\"psvc\",\"Project\":\"psvc-default\",\"HasPersonalData\":\"YesPersonalData\",\"Env\":\"prod\",\"Annotations\":{\"FieldAnnotations\":{\"CID\":[\"ChannelInfo\"],\"ID\":[\"ChannelInfo\"],\"Latitude\":[\"PublishedCountry\"],\"Longitude\":[\"PublishedCountry\"]},\"Schema\":null}}"
+			}
+		]
+	},
+	"github.com/bountylabs/service/channels/members": {
+		"pdtv2": [
+			{
+				"posn": "/Users/seongjunk/go/src/github.com/bountylabs/service/channels/members/members.go:853:12",
+				"message": "{\"Name\":\"github.com/bountylabs/service/channels/members.ChannelAddMember.dev-kinesis-metrics-consumer-KinesisStream-95A9K3Y2HW7T\",\"Role\":\"\",\"Team\":\"psvc\",\"Project\":\"psvc-default\",\"HasPersonalData\":\"YesPersonalData\",\"Env\":\"prod\",\"Annotations\":{\"FieldAnnotations\":{\"AddedUser\":[\"UserId\"],\"Cid\":[\"ChannelInfo\"],\"Time\":[\"PrivateTimestamp\"],\"User\":[\"UserId\"]},\"Schema\":null}}"
+			},
+			{
+				"posn": "/Users/seongjunk/go/src/github.com/bountylabs/service/channels/members/members.go:853:12",
+				"message": "{\"Name\":\"github.com/bountylabs/service/channels/members.ChannelAddMember.prod-kinesis-metrics-consumer-KinesisStream-Z0W9ZACCBDAJ\",\"Role\":\"\",\"Team\":\"psvc\",\"Project\":\"psvc-default\",\"HasPersonalData\":\"YesPersonalData\",\"Env\":\"prod\",\"Annotations\":{\"FieldAnnotations\":{\"AddedUser\":[\"UserId\"],\"Cid\":[\"ChannelInfo\"],\"Time\":[\"PrivateTimestamp\"],\"User\":[\"UserId\"]},\"Schema\":null}}"
+			},
+			{
+				"posn": "/Users/seongjunk/go/src/github.com/bountylabs/service/channels/members/members.go:881:12",
+				"message": "{\"Name\":\"github.com/bountylabs/service/channels/members.ChannelAddMember.dev-kinesis-metrics-consumer-KinesisStream-95A9K3Y2HW7T\",\"Role\":\"\",\"Team\":\"psvc\",\"Project\":\"psvc-default\",\"HasPersonalData\":\"YesPersonalData\",\"Env\":\"prod\",\"Annotations\":{\"FieldAnnotations\":{\"AddedUser\":[\"UserId\"],\"Cid\":[\"ChannelInfo\"],\"Time\":[\"PrivateTimestamp\"],\"User\":[\"UserId\"]},\"Schema\":null}}"
+			},
+			{
+				"posn": "/Users/seongjunk/go/src/github.com/bountylabs/service/channels/members/members.go:881:12",
+				"message": "{\"Name\":\"github.com/bountylabs/service/channels/members.ChannelAddMember.prod-kinesis-metrics-consumer-KinesisStream-Z0W9ZACCBDAJ\",\"Role\":\"\",\"Team\":\"psvc\",\"Project\":\"psvc-default\",\"HasPersonalData\":\"YesPersonalData\",\"Env\":\"prod\",\"Annotations\":{\"FieldAnnotations\":{\"AddedUser\":[\"UserId\"],\"Cid\":[\"ChannelInfo\"],\"Time\":[\"PrivateTimestamp\"],\"User\":[\"UserId\"]},\"Schema\":null}}"
+			}
+		]
+	},
+	"github.com/bountylabs/service/channels/members [github.com/bountylabs/service/channels/members.test]": {
+		"pdtv2": [
+			{
+				"posn": "/Users/seongjunk/go/src/github.com/bountylabs/service/channels/members/members.go:853:12",
+				"message": "{\"Name\":\"github.com/bountylabs/service/channels/members.ChannelAddMember.dev-kinesis-metrics-consumer-KinesisStream-95A9K3Y2HW7T\",\"Role\":\"\",\"Team\":\"psvc\",\"Project\":\"psvc-default\",\"HasPersonalData\":\"YesPersonalData\",\"Env\":\"prod\",\"Annotations\":{\"FieldAnnotations\":{\"AddedUser\":[\"UserId\"],\"Cid\":[\"ChannelInfo\"],\"Time\":[\"PrivateTimestamp\"],\"User\":[\"UserId\"]},\"Schema\":null}}"
+			},
+			{
+				"posn": "/Users/seongjunk/go/src/github.com/bountylabs/service/channels/members/members.go:853:12",
+				"message": "{\"Name\":\"github.com/bountylabs/service/channels/members.ChannelAddMember.prod-kinesis-metrics-consumer-KinesisStream-Z0W9ZACCBDAJ\",\"Role\":\"\",\"Team\":\"psvc\",\"Project\":\"psvc-default\",\"HasPersonalData\":\"YesPersonalData\",\"Env\":\"prod\",\"Annotations\":{\"FieldAnnotations\":{\"AddedUser\":[\"UserId\"],\"Cid\":[\"ChannelInfo\"],\"Time\":[\"PrivateTimestamp\"],\"User\":[\"UserId\"]},\"Schema\":null}}"
+			},
+			{
+				"posn": "/Users/seongjunk/go/src/github.com/bountylabs/service/channels/members/members.go:881:12",
+				"message": "{\"Name\":\"github.com/bountylabs/service/channels/members.ChannelAddMember.dev-kinesis-metrics-consumer-KinesisStream-95A9K3Y2HW7T\",\"Role\":\"\",\"Team\":\"psvc\",\"Project\":\"psvc-default\",\"HasPersonalData\":\"YesPersonalData\",\"Env\":\"prod\",\"Annotations\":{\"FieldAnnotations\":{\"AddedUser\":[\"UserId\"],\"Cid\":[\"ChannelInfo\"],\"Time\":[\"PrivateTimestamp\"],\"User\":[\"UserId\"]},\"Schema\":null}}"
+			},
+			{
+				"posn": "/Users/seongjunk/go/src/github.com/bountylabs/service/channels/members/members.go:881:12",
+				"message": "{\"Name\":\"github.com/bountylabs/service/channels/members.ChannelAddMember.prod-kinesis-metrics-consumer-KinesisStream-Z0W9ZACCBDAJ\",\"Role\":\"\",\"Team\":\"psvc\",\"Project\":\"psvc-default\",\"HasPersonalData\":\"YesPersonalData\",\"Env\":\"prod\",\"Annotations\":{\"FieldAnnotations\":{\"AddedUser\":[\"UserId\"],\"Cid\":[\"ChannelInfo\"],\"Time\":[\"PrivateTimestamp\"],\"User\":[\"UserId\"]},\"Schema\":null}}"
+			}
+		]
+	},
+	"github.com/bountylabs/service/channels/members/membersS": {
+		"pdtv2": [
+			{
+				"category": "notice",
+				"posn": "/Users/seongjunk/go/src/github.com/bountylabs/service/channels/members/membersS/members.go:337:11",
+				"message": "Unable to map DynamoDB write to an ARN"
+			},
+			{
+				"category": "notice",
+				"posn": "/Users/seongjunk/go/src/github.com/bountylabs/service/channels/members/membersS/members.go:54:17",
+				"message": "Unable to map DynamoDB write to an ARN"
+			}
+		]
+	},
+	"github.com/bountylabs/service/channels/members/membersS [github.com/bountylabs/service/channels/members/membersS.test]": {
+		"pdtv2": [
+			{
+				"category": "notice",
+				"posn": "/Users/seongjunk/go/src/github.com/bountylabs/service/channels/members/membersS/members.go:337:11",
+				"message": "Unable to map DynamoDB write to an ARN"
+			},
+			{
+				"category": "notice",
+				"posn": "/Users/seongjunk/go/src/github.com/bountylabs/service/channels/members/membersS/members.go:54:17",
+				"message": "Unable to map DynamoDB write to an ARN"
+			}
+		]
+	},
+	"github.com/bountylabs/service/channels/name/nameS": {
+		"pdtv2": [
+			{
+				"posn": "/Users/seongjunk/go/src/github.com/bountylabs/service/channels/name/nameS/name.go:121:35",
+				"message": "{\"Name\":\"dev-channels-name\",\"Role\":\"\",\"Team\":\"psvc\",\"Project\":\"psvc-default\",\"HasPersonalData\":\"YesPersonalData\",\"Env\":\"prod\",\"Annotations\":{\"FieldAnnotations\":{\"\\\"cid\\\"\":[\"ChannelInfo\"]},\"Schema\":null}}"
+			},
+			{
+				"posn": "/Users/seongjunk/go/src/github.com/bountylabs/service/channels/name/nameS/name.go:121:35",
+				"message": "{\"Name\":\"prod-channels-name\",\"Role\":\"\",\"Team\":\"psvc\",\"Project\":\"psvc-default\",\"HasPersonalData\":\"YesPersonalData\",\"Env\":\"prod\",\"Annotations\":{\"FieldAnnotations\":{\"\\\"cid\\\"\":[\"ChannelInfo\"]},\"Schema\":null}}"
+			}
+		]
+	},
+	"github.com/bountylabs/service/channels/name/nameS [github.com/bountylabs/service/channels/name/nameS.test]": {
+		"pdtv2": [
+			{
+				"posn": "/Users/seongjunk/go/src/github.com/bountylabs/service/channels/name/nameS/name.go:121:35",
+				"message": "{\"Name\":\"dev-channels-name\",\"Role\":\"\",\"Team\":\"psvc\",\"Project\":\"psvc-default\",\"HasPersonalData\":\"YesPersonalData\",\"Env\":\"prod\",\"Annotations\":{\"FieldAnnotations\":{\"\\\"cid\\\"\":[\"ChannelInfo\"]},\"Schema\":null}}"
+			},
+			{
+				"posn": "/Users/seongjunk/go/src/github.com/bountylabs/service/channels/name/nameS/name.go:121:35",
+				"message": "{\"Name\":\"prod-channels-name\",\"Role\":\"\",\"Team\":\"psvc\",\"Project\":\"psvc-default\",\"HasPersonalData\":\"YesPersonalData\",\"Env\":\"prod\",\"Annotations\":{\"FieldAnnotations\":{\"\\\"cid\\\"\":[\"ChannelInfo\"]},\"Schema\":null}}"
+			}
+		]
+	},
+	"github.com/bountylabs/service/channels/relationships/relationshipsS": {
+		"pdtv2": [
+			{
+				"posn": "/Users/seongjunk/go/src/github.com/bountylabs/service/channels/relationships/relationshipsS/relationship.go:96:35",
+				"message": "{\"Name\":\"prod-channels-relationships\",\"Role\":\"\",\"Team\":\"psvc\",\"Project\":\"psvc-default\",\"HasPersonalData\":\"YesPersonalData\",\"Env\":\"prod\",\"Annotations\":{\"FieldAnnotations\":{\"\\\"cid\\\"\":[\"ChannelInfo\"],\"\\\"time\\\"\":[\"PrivateTimestamp\"],\"\\\"type\\\"\":[\"AnnotationValue\"]},\"Schema\":null}}"
+			},
+			{
+				"posn": "/Users/seongjunk/go/src/github.com/bountylabs/service/channels/relationships/relationshipsS/relationship.go:96:35",
+				"message": "{\"Name\":\"dev-channels-relationships\",\"Role\":\"\",\"Team\":\"psvc\",\"Project\":\"psvc-default\",\"HasPersonalData\":\"YesPersonalData\",\"Env\":\"prod\",\"Annotations\":{\"FieldAnnotations\":{\"\\\"cid\\\"\":[\"ChannelInfo\"],\"\\\"time\\\"\":[\"PrivateTimestamp\"],\"\\\"type\\\"\":[\"AnnotationValue\"]},\"Schema\":null}}"
+			}
+		]
+	},
+	"github.com/bountylabs/service/channels/relationships/relationshipsS [github.com/bountylabs/service/channels/relationships/relationshipsS.test]": {
+		"pdtv2": [
+			{
+				"posn": "/Users/seongjunk/go/src/github.com/bountylabs/service/channels/relationships/relationshipsS/relationship.go:96:35",
+				"message": "{\"Name\":\"dev-channels-relationships\",\"Role\":\"\",\"Team\":\"psvc\",\"Project\":\"psvc-default\",\"HasPersonalData\":\"YesPersonalData\",\"Env\":\"prod\",\"Annotations\":{\"FieldAnnotations\":{\"\\\"cid\\\"\":[\"ChannelInfo\"],\"\\\"time\\\"\":[\"PrivateTimestamp\"],\"\\\"type\\\"\":[\"AnnotationValue\"]},\"Schema\":null}}"
+			},
+			{
+				"posn": "/Users/seongjunk/go/src/github.com/bountylabs/service/channels/relationships/relationshipsS/relationship.go:96:35",
+				"message": "{\"Name\":\"prod-channels-relationships\",\"Role\":\"\",\"Team\":\"psvc\",\"Project\":\"psvc-default\",\"HasPersonalData\":\"YesPersonalData\",\"Env\":\"prod\",\"Annotations\":{\"FieldAnnotations\":{\"\\\"cid\\\"\":[\"ChannelInfo\"],\"\\\"time\\\"\":[\"PrivateTimestamp\"],\"\\\"type\\\"\":[\"AnnotationValue\"]},\"Schema\":null}}"
+			}
+		]
+	}
+}
