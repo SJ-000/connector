@@ -2,7 +2,7 @@
     import data from "./assets/data.json";
 
     function handleClick(e) {
-        console.log("click:", e);
+        console.log("click:");
     }
 
     // console.log(data, typeof(data));
@@ -14,9 +14,9 @@
         console.log(vv.length);
         console.log(vv);
         vv.forEach((vvv) => {
-            console.log("category: ", vvv['category']);
-            console.log("posn: ", vvv['posn']);
-            console.log("msg: ", vvv['message']);
+            console.log("category: ", vvv["category"]);
+            console.log("posn: ", vvv["posn"]);
+            console.log("msg: ", vvv["message"]);
         });
     });
 
@@ -34,4 +34,14 @@
     >
         Hello!
     </button>
+</div>
+
+<div>
+    <ul class="list-disc">
+        {#each Object.entries(data) as item}
+            <li>
+                <p>{item.values["pdtv2"]}</p>
+            </li>
+        {/each}
+    </ul>
 </div>
